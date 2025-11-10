@@ -1,0 +1,2730 @@
+[
+  {
+    "id": "act_001",
+    "name": "Morning Blood Pressure Medication",
+    "type": "Medication",
+    "priority": 1,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 3,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 5,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Take prescribed antihypertensive with breakfast.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_009"
+    ],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Pill box refilled"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Blood pressure reading",
+      "Adherence"
+    ]
+  },
+  {
+    "id": "act_002",
+    "name": "Evening Insulin Injection",
+    "type": "Medication",
+    "priority": 1,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 3,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 10,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Administer prescribed long-acting insulin dose before bed.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_007"
+    ],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Clean injection site"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Glucose level (pre-injection)",
+      "Dose administered"
+    ]
+  },
+  {
+    "id": "act_003",
+    "name": "Nightly Cholesterol Medication",
+    "type": "Medication",
+    "priority": 1,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 3,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 5,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Take statin as prescribed, typically before lights out.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Adherence"
+    ]
+  },
+  {
+    "id": "act_004",
+    "name": "Monthly Primary Care Physician Check-in",
+    "type": "Consultation",
+    "priority": 1,
+    "frequency": {
+      "pattern": "Monthly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 45,
+    "time_window_start": "09:00:00",
+    "time_window_end": "11:00:00",
+    "details": "Review vital signs, medication efficacy, and overall program adherence with PCP.",
+    "specialist_id": "spec_007",
+    "equipment_ids": [
+      "equip_009"
+    ],
+    "location": "Clinic",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Fasting blood draw (if scheduled)"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Weight",
+      "Lab results"
+    ]
+  },
+  {
+    "id": "act_005",
+    "name": "Morning Blood Pressure Medication",
+    "type": "Medication",
+    "priority": 1,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 3,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 5,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Take critical BP medication upon waking.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_009"
+    ],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Keep medication readily accessible"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Adherence",
+      "Morning Blood pressure"
+    ]
+  },
+  {
+    "id": "act_006",
+    "name": "Evening Diabetes Medication",
+    "type": "Medication",
+    "priority": 1,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 3,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 5,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Take prescribed diabetes medication with dinner.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_009"
+    ],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Adherence",
+      "Evening Glucose"
+    ]
+  },
+  {
+    "id": "act_007",
+    "name": "Bedtime Sleep Aid",
+    "type": "Medication",
+    "priority": 1,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 3,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 5,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Take sleep aid 30 minutes before planned bedtime.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_009"
+    ],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Ensure dark, quiet room"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Sleep duration",
+      "Adherence"
+    ]
+  },
+  {
+    "id": "act_008",
+    "name": "Morning Blood Pressure Medication",
+    "type": "Medication",
+    "priority": 1,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 3,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 5,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Take prescribed antihypertensive with breakfast.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_009"
+    ],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Ensure adequate water supply"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Adherence",
+      "Blood pressure (AM)"
+    ]
+  },
+  {
+    "id": "act_009",
+    "name": "Evening Insulin Injection",
+    "type": "Medication",
+    "priority": 1,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 3,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 5,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Administer long-acting insulin before bed.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_008"
+    ],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Confirm dosage and injection site"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Blood glucose (PM)",
+      "Adherence"
+    ]
+  },
+  {
+    "id": "act_010",
+    "name": "Morning Cardioprotective Medication",
+    "type": "Medication",
+    "priority": 1,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 3,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 5,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Take prescribed dose with 8oz of water upon waking.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_009"
+    ],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Pillbox loaded"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Adherence",
+      "Morning Heart Rate"
+    ]
+  },
+  {
+    "id": "act_011",
+    "name": "Evening Metabolic Support Medication",
+    "type": "Medication",
+    "priority": 1,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 3,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 5,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Take prescribed dose 30 minutes after dinner.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Adherence",
+      "Evening Blood Sugar"
+    ]
+  },
+  {
+    "id": "act_012",
+    "name": "Iron Supplement Intake",
+    "type": "Medication",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 2,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 5,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Take iron supplement 3 times per week, preferably not with dairy.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Home",
+    "remote_capable": true,
+    "preparation_requirements": [],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Adherence"
+    ]
+  },
+  {
+    "id": "act_013",
+    "name": "Daily Vitamin D Supplement",
+    "type": "Medication",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 2,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 5,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Take supplement with largest meal of the day for absorption.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Any",
+    "remote_capable": true,
+    "preparation_requirements": [],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Adherence"
+    ]
+  },
+  {
+    "id": "act_014",
+    "name": "Bi-Weekly Prescription Refill Check",
+    "type": "Medication",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 2,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 5,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Check inventory of critical medications and request refills if stock is below 7 days supply.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Any",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Medication list"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Refill status"
+    ]
+  },
+  {
+    "id": "act_015",
+    "name": "Targeted Grocery Shopping",
+    "type": "Food",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 2,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 60,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Purchase fresh produce and lean proteins based on the weekly menu plan.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Any",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Shopping list creation"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Adherence to shopping list"
+    ]
+  },
+  {
+    "id": "act_016",
+    "name": "Monthly Dietitian Review",
+    "type": "Consultation",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Monthly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 60,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Review progress on nutritional goals, discuss challenges, and adjust meal plan macros.",
+    "specialist_id": "spec_004",
+    "equipment_ids": [],
+    "location": "Clinic",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Submit food journal 48 hours prior"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_017",
+    "name": "Asthma Inhaler Refill/Check",
+    "type": "Medication",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 2,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 15,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Ensure reliever inhaler is accessible and check remaining doses.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_007"
+    ],
+    "location": "Any",
+    "remote_capable": true,
+    "preparation_requirements": [],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Inhaler count",
+      "Symptom frequency"
+    ]
+  },
+  {
+    "id": "act_018",
+    "name": "Hydration and Water Tracking",
+    "type": "Food",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 2,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 5,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Track fluid intake to ensure minimum 8 glasses (2L) consumption.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_006"
+    ],
+    "location": "Any",
+    "remote_capable": true,
+    "preparation_requirements": [],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Water intake (mL)"
+    ]
+  },
+  {
+    "id": "act_019",
+    "name": "Daily Hydration Goal Tracking (2.5L)",
+    "type": "Food",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 2,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 5,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Ensure minimum 2.5L fluid intake is logged in the wellness app.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_008"
+    ],
+    "location": "Any",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Water bottle accessible"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Fluid intake (L)"
+    ]
+  },
+  {
+    "id": "act_020",
+    "name": "Log All Meals and Macros",
+    "type": "Food",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 2,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 5,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Use tracking app to log all food and drink intake throughout the day.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_008"
+    ],
+    "location": "Any",
+    "remote_capable": true,
+    "preparation_requirements": [],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Caloric intake",
+      "Protein grams"
+    ]
+  },
+  {
+    "id": "act_021",
+    "name": "Meal Prep: Healthy Lunches",
+    "type": "Food",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 2,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 60,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Prepare 5 healthy, portion-controlled lunches for the week.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_001"
+    ],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Purchase ingredients, set aside 60 minutes"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Prep time",
+      "Meals prepared"
+    ]
+  },
+  {
+    "id": "act_022",
+    "name": "Cardio: Zone 2",
+    "type": "Fitness",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 2,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 45,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Maintain heart rate in Zone 2 for 45 minutes (running, cycling, or brisk walking).",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_003",
+      "equip_005"
+    ],
+    "location": "Any",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Heart rate monitor"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Duration",
+      "Average HR"
+    ]
+  },
+  {
+    "id": "act_023",
+    "name": "Log Detailed Food Intake",
+    "type": "Food",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 2,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 20,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Record all meals and snacks in the program app, focusing on portion size and macros.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_006"
+    ],
+    "location": "Any",
+    "remote_capable": true,
+    "preparation_requirements": [],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Calorie count",
+      "Protein intake"
+    ]
+  },
+  {
+    "id": "act_024",
+    "name": "Achieve Daily Step Goal (7000 steps)",
+    "type": "Fitness",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 2,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 60,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Ensure minimum 7,000 steps are recorded, utilizing breaks for movement.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_006"
+    ],
+    "location": "Any",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Charged wearable tracker"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Steps count",
+      "Distance walked (km)"
+    ]
+  },
+  {
+    "id": "act_025",
+    "name": "Core Stability Routine (Mat Work)",
+    "type": "Fitness",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 2,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 30,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Focus on planks, bird-dogs, and rotational movements for spinal health.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_010"
+    ],
+    "location": "Home",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Yoga mat setup"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Time held (plank)",
+      "Form quality"
+    ]
+  },
+  {
+    "id": "act_026",
+    "name": "Daily 10,000 Steps Goal Tracking",
+    "type": "Fitness",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 2,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 60,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Ensure 10,000 steps are recorded by end of day.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_008"
+    ],
+    "location": "Any",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Comfortable shoes"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Steps count"
+    ]
+  },
+  {
+    "id": "act_027",
+    "name": "Prescribed Anti-inflammatory Dose",
+    "type": "Medication",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 2,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 10,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Take as needed/prescribed for joint pain. Do not take on empty stomach.",
+    "specialist_id": "spec_003",
+    "equipment_ids": [],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Small meal or snack"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Pain level (1-10)",
+      "Adherence"
+    ]
+  },
+  {
+    "id": "act_028",
+    "name": "Weekly Anti-Inflammatory Dose",
+    "type": "Medication",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 2,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 10,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Take scheduled dose only if pain rating is above 4/10.",
+    "specialist_id": "spec_003",
+    "equipment_ids": [],
+    "location": "Any",
+    "remote_capable": true,
+    "preparation_requirements": [],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Pain level (0-10)",
+      "Dosage taken"
+    ]
+  },
+  {
+    "id": "act_029",
+    "name": "Cognitive Behavioral Therapy Session",
+    "type": "Therapy",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 60,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "One-on-one session with therapist to work on coping mechanisms.",
+    "specialist_id": "spec_003",
+    "equipment_ids": [],
+    "location": "Clinic",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Review journal entries"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_030",
+    "name": "Track Weekly Supplement Review",
+    "type": "Medication",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 10,
+    "time_window_start": "10:00:00",
+    "time_window_end": "14:00:00",
+    "details": "Review and log current supplement regimen; order refills as needed.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Any",
+    "remote_capable": true,
+    "preparation_requirements": [],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Inventory status"
+    ]
+  },
+  {
+    "id": "act_031",
+    "name": "Self-Administer Immunosuppressant Injection",
+    "type": "Medication",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 15,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Perform injection following sterile procedure checklist.",
+    "specialist_id": "spec_004",
+    "equipment_ids": [
+      "equip_009"
+    ],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Medication chilled",
+      "Sharps container ready"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Injection site status",
+      "Adherence"
+    ]
+  },
+  {
+    "id": "act_032",
+    "name": "Aerobic Cardio Session",
+    "type": "Fitness",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 2,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 60,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Sustained moderate-intensity cardio (running, cycling, elliptical).",
+    "specialist_id": "spec_002",
+    "equipment_ids": [
+      "equip_006"
+    ],
+    "location": "Gym",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Hydration plan"
+    ],
+    "backup_activity_ids": [
+      "act_009"
+    ],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_033",
+    "name": "Strength Training - Lower Body Focus",
+    "type": "Fitness",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 2,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 75,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Focus on squats, deadlifts, and accessory leg exercises.",
+    "specialist_id": "spec_002",
+    "equipment_ids": [
+      "equip_001"
+    ],
+    "location": "Gym",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Mobility drills"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_034",
+    "name": "Prepare Healthy Lunches (Batch Prep)",
+    "type": "Food",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 2,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 60,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Prepare 3-4 days worth of high-protein, low-carb lunches.",
+    "specialist_id": "spec_004",
+    "equipment_ids": [
+      "equip_004"
+    ],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Ingredients purchased"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_035",
+    "name": "Strength Training Session A",
+    "type": "Fitness",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 2,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 60,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Full body strength workout, focusing on compound movements.",
+    "specialist_id": "spec_002",
+    "equipment_ids": [
+      "equip_002"
+    ],
+    "location": "Gym",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Gym membership, workout plan"
+    ],
+    "backup_activity_ids": [
+      "act_019"
+    ],
+    "metrics_to_collect": [
+      "Lifts completed",
+      "RPE"
+    ]
+  },
+  {
+    "id": "act_036",
+    "name": "Weekend Batch Meal Preparation",
+    "type": "Food",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 2,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 60,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Prepare 3-4 healthy meals in bulk for the upcoming week.",
+    "specialist_id": "spec_005",
+    "equipment_ids": [
+      "equip_001",
+      "equip_002"
+    ],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Meal plan review",
+      "Ingredient sourcing"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Number of meals prepared"
+    ]
+  },
+  {
+    "id": "act_037",
+    "name": "Strength Training - Upper Body Focus",
+    "type": "Fitness",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 2,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 60,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Target chest, back, and arms using free weights or machines.",
+    "specialist_id": "spec_006",
+    "equipment_ids": [
+      "equip_004"
+    ],
+    "location": "Gym",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Warm-up routine 5 min"
+    ],
+    "backup_activity_ids": [
+      "act_018"
+    ],
+    "metrics_to_collect": [
+      "Weight lifted (kg)",
+      "Reps achieved"
+    ]
+  },
+  {
+    "id": "act_038",
+    "name": "Cardio Interval Training (HIIT)",
+    "type": "Fitness",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 2,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 45,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "20 minutes of high-intensity intervals followed by cool-down.",
+    "specialist_id": "spec_007",
+    "equipment_ids": [
+      "equip_005"
+    ],
+    "location": "Gym",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Hydration ready"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Average heart rate",
+      "RPE (Rate of perceived exertion)"
+    ]
+  },
+  {
+    "id": "act_039",
+    "name": "Low-Impact Cardio Session (45 min)",
+    "type": "Fitness",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 2,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 45,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Use elliptical or stationary bike to maintain target heart rate zone 2.",
+    "specialist_id": "spec_005",
+    "equipment_ids": [
+      "equip_001",
+      "equip_007"
+    ],
+    "location": "Gym",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Heart rate monitor charged"
+    ],
+    "backup_activity_ids": [
+      "act_009"
+    ],
+    "metrics_to_collect": [
+      "Duration",
+      "Average Heart Rate"
+    ]
+  },
+  {
+    "id": "act_040",
+    "name": "Swimming Laps",
+    "type": "Fitness",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 60,
+    "time_window_start": "11:00:00",
+    "time_window_end": "13:00:00",
+    "details": "Low-impact full body workout in the pool.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_003"
+    ],
+    "location": "Gym",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Pack swim gear"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_041",
+    "name": "Weekly B12 Injection Administration",
+    "type": "Medication",
+    "priority": 2,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 15,
+    "time_window_start": "10:00:00",
+    "time_window_end": "14:00:00",
+    "details": "Receive prescribed B12 injection from the nurse or self-administer.",
+    "specialist_id": "spec_008",
+    "equipment_ids": [
+      "equip_007"
+    ],
+    "location": "Clinic",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Schedule appointment"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_042",
+    "name": "Asthma Inhaler Check",
+    "type": "Medication",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 5,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Ensure inhaler is accessible and check peak flow readings if applicable.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Any",
+    "remote_capable": true,
+    "preparation_requirements": [],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Peak flow rate",
+      "Symptom check"
+    ]
+  },
+  {
+    "id": "act_043",
+    "name": "Post-Workout Protein Shake Prep",
+    "type": "Food",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 5,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Ensure protein supplement is consumed within 30 minutes of physical activity.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Powder measured"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_044",
+    "name": "Hydration Tracking",
+    "type": "Food",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 5,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Track total water intake to meet 8-cup daily goal.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Any",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Keep water bottle accessible"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Daily water intake"
+    ]
+  },
+  {
+    "id": "act_045",
+    "name": "Log Food Diary",
+    "type": "Food",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 10,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Record all meals and snacks in the tracking app 5 times per week.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Any",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Access to tracking app"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Calorie count",
+      "Macro breakdown"
+    ]
+  },
+  {
+    "id": "act_046",
+    "name": "Weekly Bone Density Medication",
+    "type": "Medication",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 10,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Take on an empty stomach with a full glass of water. Remain upright for 30 minutes.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "No food intake 30 min prior"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Adherence"
+    ]
+  },
+  {
+    "id": "act_047",
+    "name": "Maintain Sleep Hygiene Routine",
+    "type": "Food",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 10,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Implement 1-hour screen cutoff before bed and light stretching.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Home",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Room darkened"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Time to bed",
+      "Sleep quality rating"
+    ]
+  },
+  {
+    "id": "act_048",
+    "name": "Active Recovery Walk",
+    "type": "Fitness",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 30,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Light-paced walking to aid muscle recovery and boost mood.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Any",
+    "remote_capable": true,
+    "preparation_requirements": [],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_049",
+    "name": "Core Stability Workout",
+    "type": "Fitness",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 30,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Focus on planks, crunches, and rotational core movements.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Home",
+    "remote_capable": true,
+    "preparation_requirements": [],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_050",
+    "name": "Active Recovery Walk",
+    "type": "Fitness",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 30,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Low-intensity walk to aid recovery and boost daily step count.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Any",
+    "remote_capable": true,
+    "preparation_requirements": [],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Steps",
+      "Distance"
+    ]
+  },
+  {
+    "id": "act_051",
+    "name": "Strength Training Session B (Home)",
+    "type": "Fitness",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 60,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Resistance band or dumbbell workout focusing on accessory lifts.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Home",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Clear space, setup equipment"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_052",
+    "name": "Weekend Smoothie Preparation",
+    "type": "Food",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 20,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Prepare nutrient-dense smoothies with fruits, vegetables, and protein powder.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Frozen fruit ready"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Protein amount (g)"
+    ]
+  },
+  {
+    "id": "act_053",
+    "name": "Low Impact Swimming Session",
+    "type": "Fitness",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 90,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Swim 20 laps or perform water aerobics for joint health.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Gym",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Swimwear and goggles"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Laps completed",
+      "Duration (minutes)"
+    ]
+  },
+  {
+    "id": "act_054",
+    "name": "Active Recovery Walk",
+    "type": "Fitness",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 45,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Moderate pace walk outdoors to aid muscle recovery.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Any",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Comfortable shoes"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Step cadence"
+    ]
+  },
+  {
+    "id": "act_055",
+    "name": "Grocery Shopping & Healthy Pantry Stocking",
+    "type": "Food",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 60,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Purchase items based strictly on pre-approved list; avoid impulse buys.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Any",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Shopping list prepared"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Budget adherence"
+    ]
+  },
+  {
+    "id": "act_056",
+    "name": "Track Calorie/Macro Intake",
+    "type": "Food",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 10,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Log all meals and snacks using a nutrition tracking app.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_005",
+      "equip_008"
+    ],
+    "location": "Any",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Food scale nearby"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Calorie count",
+      "Protein intake"
+    ]
+  },
+  {
+    "id": "act_057",
+    "name": "Mindful Portion Control Check",
+    "type": "Food",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 5,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Take a moment before meals to consciously assess serving sizes and slow down eating pace.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_008"
+    ],
+    "location": "Any",
+    "remote_capable": true,
+    "preparation_requirements": [],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_058",
+    "name": "Weekly B12 Injection",
+    "type": "Medication",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 10,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Clinical administration of B12 shot.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_009"
+    ],
+    "location": "Clinic",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Schedule appointment with nurse"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_059",
+    "name": "Evening Relaxation Yoga/Stretching",
+    "type": "Fitness",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 45,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Gentle stretching and restorative poses for flexibility.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_002"
+    ],
+    "location": "Home",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Clear space"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_060",
+    "name": "High-Fiber Breakfast Prep",
+    "type": "Food",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 20,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Prepare a breakfast high in fiber (e.g., overnight oats or complex grains).",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_001"
+    ],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Required ingredients"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Fiber intake estimate"
+    ]
+  },
+  {
+    "id": "act_061",
+    "name": "Flexibility/Stretching Routine",
+    "type": "Fitness",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 30,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Perform a comprehensive 30-minute full-body stretching routine.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_007"
+    ],
+    "location": "Home",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Clear floor space"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_062",
+    "name": "Mindfulness Meditation",
+    "type": "Therapy",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 30,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Guided meditation practice using an app or recording.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_006"
+    ],
+    "location": "Any",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Find a quiet space"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Duration",
+      "Self-rated calm score"
+    ]
+  },
+  {
+    "id": "act_063",
+    "name": "Fiber Intake Review",
+    "type": "Food",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 30,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Review food logs to ensure 25g minimum daily fiber intake is met.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_006"
+    ],
+    "location": "Home",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Access to tracking software"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Average daily fiber intake"
+    ]
+  },
+  {
+    "id": "act_064",
+    "name": "Weekend Hike or Cycle",
+    "type": "Fitness",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 90,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Extended aerobic activity to boost cardiovascular health.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_005"
+    ],
+    "location": "Any",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Route planned",
+      "Safety gear"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Total elevation gain",
+      "Calories burned"
+    ]
+  },
+  {
+    "id": "act_065",
+    "name": "Guided Meditation Practice",
+    "type": "Therapy",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 30,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Use a guided app for mindfulness and relaxation before sleep.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_006"
+    ],
+    "location": "Home",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Headphones"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Sleep latency (minutes)"
+    ]
+  },
+  {
+    "id": "act_066",
+    "name": "Try New Fiber-Rich Recipe",
+    "type": "Food",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 45,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Experiment with one new recipe focusing on whole grains or legumes.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_006"
+    ],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Recipe selected"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Recipe rating"
+    ]
+  },
+  {
+    "id": "act_067",
+    "name": "Flexibility and Foam Rolling Session",
+    "type": "Fitness",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 30,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Focus on major muscle groups, holding stretches for 30 seconds.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_004"
+    ],
+    "location": "Home",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Yoga mat"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Perceived muscle soreness (0-10)"
+    ]
+  },
+  {
+    "id": "act_068",
+    "name": "Review Nutrition Data with App",
+    "type": "Food",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 20,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Analyze weekly trends for sodium, fiber, and sugar intake.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_008"
+    ],
+    "location": "Home",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Tracking app data exported"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Fiber intake (g/day avg)"
+    ]
+  },
+  {
+    "id": "act_069",
+    "name": "Long Outdoor Hike/Walk (75 min)",
+    "type": "Fitness",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 75,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Explore a local trail, maintaining a moderate pace.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_008"
+    ],
+    "location": "Any",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Weather appropriate gear"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Distance (km)"
+    ]
+  },
+  {
+    "id": "act_070",
+    "name": "Guided Mindfulness Meditation",
+    "type": "Therapy",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 30,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Use a guided app session focusing on stress reduction.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_008"
+    ],
+    "location": "Home",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Quiet environment"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Subjective stress rating"
+    ]
+  },
+  {
+    "id": "act_071",
+    "name": "Meal Planning & Grocery List Prep",
+    "type": "Food",
+    "priority": 3,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 60,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Plan 7 days of meals focusing on balanced nutrition and adherence to dietary restrictions.",
+    "specialist_id": "spec_004",
+    "equipment_ids": [],
+    "location": "Home",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Review existing pantry stock"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_072",
+    "name": "Physician Check-in (Monthly)",
+    "type": "Consultation",
+    "priority": 4,
+    "frequency": {
+      "pattern": "Monthly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 60,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Review blood work, medication efficacy, and overall program progress.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Clinic",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Compile metric data for review"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_073",
+    "name": "Monthly Stress Management Workshop",
+    "type": "Therapy",
+    "priority": 4,
+    "frequency": {
+      "pattern": "Monthly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 120,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Group workshop covering coping strategies and time management.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Clinic",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Workshop materials"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Perceived stress scale (pre/post)"
+    ]
+  },
+  {
+    "id": "act_074",
+    "name": "Primary Care Physician Check-in",
+    "type": "Consultation",
+    "priority": 4,
+    "frequency": {
+      "pattern": "Monthly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 45,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Review overall health metrics, medication efficacy, and address non-urgent concerns.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Clinic",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Bring list of questions",
+      "Recent lab results"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "BMI",
+      "Cholesterol levels"
+    ]
+  },
+  {
+    "id": "act_075",
+    "name": "Monthly Deep Tissue Massage Therapy",
+    "type": "Therapy",
+    "priority": 4,
+    "frequency": {
+      "pattern": "Monthly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 120,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Focus on releasing tension in upper back and neck.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Clinic",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Hydration before and after"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Range of motion (cervical)"
+    ]
+  },
+  {
+    "id": "act_076",
+    "name": "Take Daily Multivitamin",
+    "type": "Medication",
+    "priority": 4,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 5,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Take general health multivitamin with a meal.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_077",
+    "name": "Vitamin D Intake",
+    "type": "Medication",
+    "priority": 4,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 5,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Take Vitamin D supplement twice a week with a meal containing healthy fats.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Home",
+    "remote_capable": true,
+    "preparation_requirements": [],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Adherence"
+    ]
+  },
+  {
+    "id": "act_078",
+    "name": "Practice Reading Nutrition Labels",
+    "type": "Food",
+    "priority": 4,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 15,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Focus on identifying added sugars and sodium content in packaged foods.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Any",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "3 packaged foods available"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Sodium identified (mg)"
+    ]
+  },
+  {
+    "id": "act_079",
+    "name": "Registered Dietitian Follow-up",
+    "type": "Consultation",
+    "priority": 4,
+    "frequency": {
+      "pattern": "Monthly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 60,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Review dietary goals, troubleshoot barriers, and adjust meal plan.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_006"
+    ],
+    "location": "Clinic",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "7-day food diary submission"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Goal adherence (%)",
+      "Weight trend (kg)"
+    ]
+  },
+  {
+    "id": "act_080",
+    "name": "Dietitian Follow-up Consultation",
+    "type": "Consultation",
+    "priority": 4,
+    "frequency": {
+      "pattern": "Monthly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 60,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Review macro adherence, discuss challenges, and adjust meal plan goals.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Clinic",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "7 days of food logs compiled"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Body Weight",
+      "BMI"
+    ]
+  },
+  {
+    "id": "act_081",
+    "name": "Posture and Mobility Drills",
+    "type": "Fitness",
+    "priority": 4,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 30,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Exercises targeting tight areas (hips, shoulders) for improved posture.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Any",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Foam roller setup"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_082",
+    "name": "Weekend Hiking/Outdoor Activity",
+    "type": "Fitness",
+    "priority": 4,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 90,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Engage in an enjoyable outdoor activity (hiking, biking, kayaking).",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Any",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Check weather forecast"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_083",
+    "name": "Try New Vegetable/Recipe",
+    "type": "Food",
+    "priority": 4,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 45,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Incorporate a new, nutrient-dense vegetable or healthy recipe into dinner preparation.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Recipe selected"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_084",
+    "name": "Guided Meditation Session",
+    "type": "Therapy",
+    "priority": 4,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 20,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Use an app or recording for focused mindfulness and stress reduction.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Any",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Quiet environment"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_085",
+    "name": "Stress Management Cognitive Drill",
+    "type": "Therapy",
+    "priority": 4,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 45,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Practice cognitive restructuring techniques taught by the therapist to manage anxiety triggers.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Any",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Journal available"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_086",
+    "name": "Try New Healthy Recipe",
+    "type": "Food",
+    "priority": 4,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 60,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Experiment with one new nutritious recipe per week.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Recipe selected, ingredients purchased"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_087",
+    "name": "Snack Portioning",
+    "type": "Food",
+    "priority": 4,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 20,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Pre-portion 3 days worth of snacks to manage intake.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Containers for storage"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_088",
+    "name": "Grocery Shopping & Planning",
+    "type": "Food",
+    "priority": 4,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 60,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Shop for groceries following a pre-planned healthy list.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Any",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Meal plan completed"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_089",
+    "name": "Swimming/Water Aerobics",
+    "type": "Fitness",
+    "priority": 4,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 60,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Low-impact aquatic exercise session.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Gym",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Swimwear, towel"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_090",
+    "name": "Sleep Hygiene Review",
+    "type": "Therapy",
+    "priority": 4,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 45,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Dedicated time to ensure bedroom environment and evening routines support quality sleep.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [
+      "Turn off screens"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Time to bed",
+      "Screen time before sleep"
+    ]
+  },
+  {
+    "id": "act_091",
+    "name": "Balance and Proprioception Drills",
+    "type": "Fitness",
+    "priority": 4,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 30,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Single-leg stands and tandem walking to prevent falls.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Home",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Clear space"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Single-leg hold time (sec)"
+    ]
+  },
+  {
+    "id": "act_092",
+    "name": "Review Calorie Goals",
+    "type": "Food",
+    "priority": 5,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 30,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Review average weekly calorie intake and adjust goals for the coming week.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Home",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Access to tracking data"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_093",
+    "name": "Core Stabilization Routine",
+    "type": "Fitness",
+    "priority": 5,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 30,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Focused exercises on core strength and posture.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Home",
+    "remote_capable": true,
+    "preparation_requirements": [],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_094",
+    "name": "Track Weekly Steps Goal",
+    "type": "Fitness",
+    "priority": 5,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 5,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Check wearable device to ensure weekly steps target was met (e.g., 70,000 steps).",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Any",
+    "remote_capable": true,
+    "preparation_requirements": [],
+    "backup_activity_ids": [],
+    "metrics_to_collect": [
+      "Total weekly steps"
+    ]
+  },
+  {
+    "id": "act_095",
+    "name": "Stress Management Workshop",
+    "type": "Therapy",
+    "priority": 5,
+    "frequency": {
+      "pattern": "Monthly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 90,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Attend a group workshop focusing on advanced stress reduction techniques.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Clinic",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Enroll in workshop"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_096",
+    "name": "Nutritionist Review",
+    "type": "Consultation",
+    "priority": 5,
+    "frequency": {
+      "pattern": "Monthly",
+      "count": 1,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 45,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Consultation to refine dietary plan based on progress and challenges.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Clinic",
+    "remote_capable": true,
+    "preparation_requirements": [
+      "Submit 7-day food diary"
+    ],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_097",
+    "name": "Afternoon Blood Glucose Check",
+    "type": "Medication",
+    "priority": 1,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 3,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 5,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Check blood glucose levels in afternoon.",
+    "specialist_id": null,
+    "equipment_ids": [
+      "equip_009"
+    ],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_098",
+    "name": "Evening Vitamin Supplement",
+    "type": "Medication",
+    "priority": 1,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 3,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 5,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Take daily multivitamin with dinner.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_099",
+    "name": "Morning Thyroid Medication",
+    "type": "Medication",
+    "priority": 1,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 3,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 5,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Take levothyroxine before breakfast.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  },
+  {
+    "id": "act_100",
+    "name": "Bedtime Medication Routine",
+    "type": "Medication",
+    "priority": 1,
+    "frequency": {
+      "pattern": "Weekly",
+      "count": 3,
+      "preferred_days": null,
+      "interval_days": null
+    },
+    "duration_minutes": 10,
+    "time_window_start": null,
+    "time_window_end": null,
+    "details": "Evening medication regimen before sleep.",
+    "specialist_id": null,
+    "equipment_ids": [],
+    "location": "Home",
+    "remote_capable": false,
+    "preparation_requirements": [],
+    "backup_activity_ids": [],
+    "metrics_to_collect": []
+  }
+]

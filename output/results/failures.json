@@ -1,0 +1,1120 @@
+[
+  {
+    "activity_id": "act_001",
+    "activity_name": "Morning Blood Pressure Medication",
+    "activity_type": "Medication",
+    "priority": 1,
+    "attempts": 918,
+    "violation_types": {
+      "travel": 720,
+      "overlap": 198
+    },
+    "sample_reason": "Traveling to Chicago, IL - Industry Conference (Business) (remote-only), activity not remote-capable"
+  },
+  {
+    "activity_id": "act_002",
+    "activity_name": "Evening Insulin Injection",
+    "activity_type": "Medication",
+    "priority": 1,
+    "attempts": 1350,
+    "violation_types": {
+      "overlap": 630,
+      "travel": 720
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_003",
+    "activity_name": "Nightly Cholesterol Medication",
+    "activity_type": "Medication",
+    "priority": 1,
+    "attempts": 1782,
+    "violation_types": {
+      "overlap": 1062,
+      "travel": 720
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_005",
+    "activity_name": "Morning Blood Pressure Medication",
+    "activity_type": "Medication",
+    "priority": 1,
+    "attempts": 2214,
+    "violation_types": {
+      "overlap": 1494,
+      "travel": 720
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_006",
+    "activity_name": "Evening Diabetes Medication",
+    "activity_type": "Medication",
+    "priority": 1,
+    "attempts": 2646,
+    "violation_types": {
+      "overlap": 1926,
+      "travel": 720
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_007",
+    "activity_name": "Bedtime Sleep Aid",
+    "activity_type": "Medication",
+    "priority": 1,
+    "attempts": 3078,
+    "violation_types": {
+      "overlap": 2358,
+      "travel": 720
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_008",
+    "activity_name": "Morning Blood Pressure Medication",
+    "activity_type": "Medication",
+    "priority": 1,
+    "attempts": 3510,
+    "violation_types": {
+      "overlap": 2790,
+      "travel": 720
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_009",
+    "activity_name": "Evening Insulin Injection",
+    "activity_type": "Medication",
+    "priority": 1,
+    "attempts": 3942,
+    "violation_types": {
+      "overlap": 3222,
+      "travel": 720
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_010",
+    "activity_name": "Morning Cardioprotective Medication",
+    "activity_type": "Medication",
+    "priority": 1,
+    "attempts": 4374,
+    "violation_types": {
+      "overlap": 3654,
+      "travel": 720
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_011",
+    "activity_name": "Evening Metabolic Support Medication",
+    "activity_type": "Medication",
+    "priority": 1,
+    "attempts": 4806,
+    "violation_types": {
+      "overlap": 4086,
+      "travel": 720
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_097",
+    "activity_name": "Afternoon Blood Glucose Check",
+    "activity_type": "Medication",
+    "priority": 1,
+    "attempts": 5238,
+    "violation_types": {
+      "overlap": 4518,
+      "travel": 720
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_098",
+    "activity_name": "Evening Vitamin Supplement",
+    "activity_type": "Medication",
+    "priority": 1,
+    "attempts": 5670,
+    "violation_types": {
+      "overlap": 4950,
+      "travel": 720
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_099",
+    "activity_name": "Morning Thyroid Medication",
+    "activity_type": "Medication",
+    "priority": 1,
+    "attempts": 6102,
+    "violation_types": {
+      "overlap": 5382,
+      "travel": 720
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_100",
+    "activity_name": "Bedtime Medication Routine",
+    "activity_type": "Medication",
+    "priority": 1,
+    "attempts": 6534,
+    "violation_types": {
+      "overlap": 5814,
+      "travel": 720
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_004",
+    "activity_name": "Monthly Primary Care Physician Check-in",
+    "activity_type": "Consultation",
+    "priority": 1,
+    "attempts": 23,
+    "violation_types": {
+      "overlap": 14,
+      "specialist": 9
+    },
+    "sample_reason": "Overlaps with act_007 at 09:00:00"
+  },
+  {
+    "activity_id": "act_012",
+    "activity_name": "Iron Supplement Intake",
+    "activity_type": "Medication",
+    "priority": 2,
+    "attempts": 4164,
+    "violation_types": {
+      "overlap": 4164
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_013",
+    "activity_name": "Daily Vitamin D Supplement",
+    "activity_type": "Medication",
+    "priority": 2,
+    "attempts": 4452,
+    "violation_types": {
+      "overlap": 4452
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_014",
+    "activity_name": "Bi-Weekly Prescription Refill Check",
+    "activity_type": "Medication",
+    "priority": 2,
+    "attempts": 4740,
+    "violation_types": {
+      "overlap": 4740
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_015",
+    "activity_name": "Targeted Grocery Shopping",
+    "activity_type": "Food",
+    "priority": 2,
+    "attempts": 5412,
+    "violation_types": {
+      "overlap": 5160,
+      "travel": 252
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_017",
+    "activity_name": "Asthma Inhaler Refill/Check",
+    "activity_type": "Medication",
+    "priority": 2,
+    "attempts": 5604,
+    "violation_types": {
+      "overlap": 5604
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_018",
+    "activity_name": "Hydration and Water Tracking",
+    "activity_type": "Food",
+    "priority": 2,
+    "attempts": 5892,
+    "violation_types": {
+      "overlap": 5892
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_019",
+    "activity_name": "Daily Hydration Goal Tracking (2.5L)",
+    "activity_type": "Food",
+    "priority": 2,
+    "attempts": 6180,
+    "violation_types": {
+      "overlap": 6180
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_020",
+    "activity_name": "Log All Meals and Macros",
+    "activity_type": "Food",
+    "priority": 2,
+    "attempts": 6468,
+    "violation_types": {
+      "overlap": 6468
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_021",
+    "activity_name": "Meal Prep: Healthy Lunches",
+    "activity_type": "Food",
+    "priority": 2,
+    "attempts": 6972,
+    "violation_types": {
+      "overlap": 6888,
+      "travel": 84
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_022",
+    "activity_name": "Cardio: Zone 2",
+    "activity_type": "Fitness",
+    "priority": 2,
+    "attempts": 7464,
+    "violation_types": {
+      "overlap": 7464
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_023",
+    "activity_name": "Log Detailed Food Intake",
+    "activity_type": "Food",
+    "priority": 2,
+    "attempts": 7908,
+    "violation_types": {
+      "overlap": 7908
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_024",
+    "activity_name": "Achieve Daily Step Goal (7000 steps)",
+    "activity_type": "Fitness",
+    "priority": 2,
+    "attempts": 8328,
+    "violation_types": {
+      "overlap": 8328
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_025",
+    "activity_name": "Core Stability Routine (Mat Work)",
+    "activity_type": "Fitness",
+    "priority": 2,
+    "attempts": 8640,
+    "violation_types": {
+      "overlap": 8640
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_026",
+    "activity_name": "Daily 10,000 Steps Goal Tracking",
+    "activity_type": "Fitness",
+    "priority": 2,
+    "attempts": 8640,
+    "violation_types": {
+      "overlap": 8640
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_027",
+    "activity_name": "Prescribed Anti-inflammatory Dose",
+    "activity_type": "Medication",
+    "priority": 2,
+    "attempts": 8640,
+    "violation_types": {
+      "overlap": 8640
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_028",
+    "activity_name": "Weekly Anti-Inflammatory Dose",
+    "activity_type": "Medication",
+    "priority": 2,
+    "attempts": 8640,
+    "violation_types": {
+      "overlap": 8640
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_029",
+    "activity_name": "Cognitive Behavioral Therapy Session",
+    "activity_type": "Therapy",
+    "priority": 2,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_030",
+    "activity_name": "Track Weekly Supplement Review",
+    "activity_type": "Medication",
+    "priority": 2,
+    "attempts": 1152,
+    "violation_types": {
+      "overlap": 1152
+    },
+    "sample_reason": "Overlaps with act_010 at 10:00:00"
+  },
+  {
+    "activity_id": "act_031",
+    "activity_name": "Self-Administer Immunosuppressant Injection",
+    "activity_type": "Medication",
+    "priority": 2,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_032",
+    "activity_name": "Aerobic Cardio Session",
+    "activity_type": "Fitness",
+    "priority": 2,
+    "attempts": 8640,
+    "violation_types": {
+      "overlap": 8640
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_033",
+    "activity_name": "Strength Training - Lower Body Focus",
+    "activity_type": "Fitness",
+    "priority": 2,
+    "attempts": 8640,
+    "violation_types": {
+      "overlap": 8640
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_034",
+    "activity_name": "Prepare Healthy Lunches (Batch Prep)",
+    "activity_type": "Food",
+    "priority": 2,
+    "attempts": 8640,
+    "violation_types": {
+      "overlap": 8640
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_035",
+    "activity_name": "Strength Training Session A",
+    "activity_type": "Fitness",
+    "priority": 2,
+    "attempts": 8640,
+    "violation_types": {
+      "overlap": 8640
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_036",
+    "activity_name": "Weekend Batch Meal Preparation",
+    "activity_type": "Food",
+    "priority": 2,
+    "attempts": 8640,
+    "violation_types": {
+      "overlap": 8640
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_037",
+    "activity_name": "Strength Training - Upper Body Focus",
+    "activity_type": "Fitness",
+    "priority": 2,
+    "attempts": 8640,
+    "violation_types": {
+      "overlap": 8640
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_038",
+    "activity_name": "Cardio Interval Training (HIIT)",
+    "activity_type": "Fitness",
+    "priority": 2,
+    "attempts": 8640,
+    "violation_types": {
+      "overlap": 8640
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_039",
+    "activity_name": "Low-Impact Cardio Session (45 min)",
+    "activity_type": "Fitness",
+    "priority": 2,
+    "attempts": 8640,
+    "violation_types": {
+      "overlap": 8640
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_040",
+    "activity_name": "Swimming Laps",
+    "activity_type": "Fitness",
+    "priority": 2,
+    "attempts": 432,
+    "violation_types": {
+      "overlap": 432
+    },
+    "sample_reason": "Overlaps with act_097 at 11:00:00"
+  },
+  {
+    "activity_id": "act_041",
+    "activity_name": "Weekly B12 Injection Administration",
+    "activity_type": "Medication",
+    "priority": 2,
+    "attempts": 1152,
+    "violation_types": {
+      "overlap": 1152
+    },
+    "sample_reason": "Overlaps with act_010 at 10:00:00"
+  },
+  {
+    "activity_id": "act_016",
+    "activity_name": "Monthly Dietitian Review",
+    "activity_type": "Consultation",
+    "priority": 2,
+    "attempts": 246,
+    "violation_types": {
+      "overlap": 111,
+      "specialist": 135
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_042",
+    "activity_name": "Asthma Inhaler Check",
+    "activity_type": "Medication",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_043",
+    "activity_name": "Post-Workout Protein Shake Prep",
+    "activity_type": "Food",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_044",
+    "activity_name": "Hydration Tracking",
+    "activity_type": "Food",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_045",
+    "activity_name": "Log Food Diary",
+    "activity_type": "Food",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_046",
+    "activity_name": "Weekly Bone Density Medication",
+    "activity_type": "Medication",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_047",
+    "activity_name": "Maintain Sleep Hygiene Routine",
+    "activity_type": "Food",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_048",
+    "activity_name": "Active Recovery Walk",
+    "activity_type": "Fitness",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_049",
+    "activity_name": "Core Stability Workout",
+    "activity_type": "Fitness",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_050",
+    "activity_name": "Active Recovery Walk",
+    "activity_type": "Fitness",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_051",
+    "activity_name": "Strength Training Session B (Home)",
+    "activity_type": "Fitness",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_052",
+    "activity_name": "Weekend Smoothie Preparation",
+    "activity_type": "Food",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_053",
+    "activity_name": "Low Impact Swimming Session",
+    "activity_type": "Fitness",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_054",
+    "activity_name": "Active Recovery Walk",
+    "activity_type": "Fitness",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_055",
+    "activity_name": "Grocery Shopping & Healthy Pantry Stocking",
+    "activity_type": "Food",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_056",
+    "activity_name": "Track Calorie/Macro Intake",
+    "activity_type": "Food",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_057",
+    "activity_name": "Mindful Portion Control Check",
+    "activity_type": "Food",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_058",
+    "activity_name": "Weekly B12 Injection",
+    "activity_type": "Medication",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_059",
+    "activity_name": "Evening Relaxation Yoga/Stretching",
+    "activity_type": "Fitness",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_060",
+    "activity_name": "High-Fiber Breakfast Prep",
+    "activity_type": "Food",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_061",
+    "activity_name": "Flexibility/Stretching Routine",
+    "activity_type": "Fitness",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_062",
+    "activity_name": "Mindfulness Meditation",
+    "activity_type": "Therapy",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_063",
+    "activity_name": "Fiber Intake Review",
+    "activity_type": "Food",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_064",
+    "activity_name": "Weekend Hike or Cycle",
+    "activity_type": "Fitness",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_065",
+    "activity_name": "Guided Meditation Practice",
+    "activity_type": "Therapy",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_066",
+    "activity_name": "Try New Fiber-Rich Recipe",
+    "activity_type": "Food",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_067",
+    "activity_name": "Flexibility and Foam Rolling Session",
+    "activity_type": "Fitness",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_068",
+    "activity_name": "Review Nutrition Data with App",
+    "activity_type": "Food",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_069",
+    "activity_name": "Long Outdoor Hike/Walk (75 min)",
+    "activity_type": "Fitness",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_070",
+    "activity_name": "Guided Mindfulness Meditation",
+    "activity_type": "Therapy",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_071",
+    "activity_name": "Meal Planning & Grocery List Prep",
+    "activity_type": "Food",
+    "priority": 3,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_076",
+    "activity_name": "Take Daily Multivitamin",
+    "activity_type": "Medication",
+    "priority": 4,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_077",
+    "activity_name": "Vitamin D Intake",
+    "activity_type": "Medication",
+    "priority": 4,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_078",
+    "activity_name": "Practice Reading Nutrition Labels",
+    "activity_type": "Food",
+    "priority": 4,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_081",
+    "activity_name": "Posture and Mobility Drills",
+    "activity_type": "Fitness",
+    "priority": 4,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_082",
+    "activity_name": "Weekend Hiking/Outdoor Activity",
+    "activity_type": "Fitness",
+    "priority": 4,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_083",
+    "activity_name": "Try New Vegetable/Recipe",
+    "activity_type": "Food",
+    "priority": 4,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_084",
+    "activity_name": "Guided Meditation Session",
+    "activity_type": "Therapy",
+    "priority": 4,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_085",
+    "activity_name": "Stress Management Cognitive Drill",
+    "activity_type": "Therapy",
+    "priority": 4,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_086",
+    "activity_name": "Try New Healthy Recipe",
+    "activity_type": "Food",
+    "priority": 4,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_087",
+    "activity_name": "Snack Portioning",
+    "activity_type": "Food",
+    "priority": 4,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_088",
+    "activity_name": "Grocery Shopping & Planning",
+    "activity_type": "Food",
+    "priority": 4,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_089",
+    "activity_name": "Swimming/Water Aerobics",
+    "activity_type": "Fitness",
+    "priority": 4,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_090",
+    "activity_name": "Sleep Hygiene Review",
+    "activity_type": "Therapy",
+    "priority": 4,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_091",
+    "activity_name": "Balance and Proprioception Drills",
+    "activity_type": "Fitness",
+    "priority": 4,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_072",
+    "activity_name": "Physician Check-in (Monthly)",
+    "activity_type": "Consultation",
+    "priority": 4,
+    "attempts": 126,
+    "violation_types": {
+      "overlap": 126
+    },
+    "sample_reason": "Overlaps with act_016 at 06:00:00"
+  },
+  {
+    "activity_id": "act_073",
+    "activity_name": "Monthly Stress Management Workshop",
+    "activity_type": "Therapy",
+    "priority": 4,
+    "attempts": 150,
+    "violation_types": {
+      "overlap": 150
+    },
+    "sample_reason": "Overlaps with act_072 at 06:00:00"
+  },
+  {
+    "activity_id": "act_074",
+    "activity_name": "Primary Care Physician Check-in",
+    "activity_type": "Consultation",
+    "priority": 4,
+    "attempts": 180,
+    "violation_types": {
+      "overlap": 180
+    },
+    "sample_reason": "Overlaps with act_016 at 06:00:00"
+  },
+  {
+    "activity_id": "act_075",
+    "activity_name": "Monthly Deep Tissue Massage Therapy",
+    "activity_type": "Therapy",
+    "priority": 4,
+    "attempts": 204,
+    "violation_types": {
+      "overlap": 204
+    },
+    "sample_reason": "Overlaps with act_072 at 06:00:00"
+  },
+  {
+    "activity_id": "act_079",
+    "activity_name": "Registered Dietitian Follow-up",
+    "activity_type": "Consultation",
+    "priority": 4,
+    "attempts": 234,
+    "violation_types": {
+      "overlap": 234
+    },
+    "sample_reason": "Overlaps with act_016 at 06:00:00"
+  },
+  {
+    "activity_id": "act_080",
+    "activity_name": "Dietitian Follow-up Consultation",
+    "activity_type": "Consultation",
+    "priority": 4,
+    "attempts": 252,
+    "violation_types": {
+      "overlap": 252
+    },
+    "sample_reason": "Overlaps with act_072 at 06:00:00"
+  },
+  {
+    "activity_id": "act_092",
+    "activity_name": "Review Calorie Goals",
+    "activity_type": "Food",
+    "priority": 5,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_093",
+    "activity_name": "Core Stabilization Routine",
+    "activity_type": "Fitness",
+    "priority": 5,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_094",
+    "activity_name": "Track Weekly Steps Goal",
+    "activity_type": "Fitness",
+    "priority": 5,
+    "attempts": 4320,
+    "violation_types": {
+      "overlap": 4320
+    },
+    "sample_reason": "Overlaps with act_001 at 06:00:00"
+  },
+  {
+    "activity_id": "act_095",
+    "activity_name": "Stress Management Workshop",
+    "activity_type": "Therapy",
+    "priority": 5,
+    "attempts": 268,
+    "violation_types": {
+      "overlap": 268
+    },
+    "sample_reason": "Overlaps with act_072 at 06:00:00"
+  },
+  {
+    "activity_id": "act_096",
+    "activity_name": "Nutritionist Review",
+    "activity_type": "Consultation",
+    "priority": 5,
+    "attempts": 270,
+    "violation_types": {
+      "overlap": 270
+    },
+    "sample_reason": "Overlaps with act_072 at 06:00:00"
+  }
+]

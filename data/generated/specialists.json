@@ -1,0 +1,859 @@
+[
+  {
+    "id": "spec_001",
+    "name": "Sarah Mitchell",
+    "type": "Trainer",
+    "availability": [
+      {
+        "day_of_week": 0,
+        "start_time": "06:00:00",
+        "end_time": "11:00:00"
+      },
+      {
+        "day_of_week": 0,
+        "start_time": "17:00:00",
+        "end_time": "20:00:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "06:00:00",
+        "end_time": "11:00:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "17:00:00",
+        "end_time": "20:00:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "09:00:00",
+        "end_time": "13:00:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "14:00:00",
+        "end_time": "19:00:00"
+      },
+      {
+        "day_of_week": 4,
+        "start_time": "06:00:00",
+        "end_time": "10:00:00"
+      },
+      {
+        "day_of_week": 4,
+        "start_time": "16:00:00",
+        "end_time": "20:00:00"
+      },
+      {
+        "day_of_week": 5,
+        "start_time": "08:00:00",
+        "end_time": "11:00:00"
+      },
+      {
+        "day_of_week": 5,
+        "start_time": "12:00:00",
+        "end_time": "16:00:00"
+      }
+    ],
+    "days_off": [
+      "2024-12-24",
+      "2025-01-01",
+      "2025-02-15"
+    ],
+    "max_concurrent_clients": 1
+  },
+  {
+    "id": "spec_002",
+    "name": "David Chen",
+    "type": "Trainer",
+    "availability": [
+      {
+        "day_of_week": 0,
+        "start_time": "17:00:00",
+        "end_time": "21:00:00"
+      },
+      {
+        "day_of_week": 1,
+        "start_time": "06:00:00",
+        "end_time": "09:00:00"
+      },
+      {
+        "day_of_week": 1,
+        "start_time": "12:00:00",
+        "end_time": "14:00:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "17:00:00",
+        "end_time": "21:00:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "06:00:00",
+        "end_time": "09:00:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "12:00:00",
+        "end_time": "14:00:00"
+      },
+      {
+        "day_of_week": 4,
+        "start_time": "16:00:00",
+        "end_time": "21:00:00"
+      },
+      {
+        "day_of_week": 5,
+        "start_time": "09:00:00",
+        "end_time": "13:00:00"
+      },
+      {
+        "day_of_week": 5,
+        "start_time": "14:00:00",
+        "end_time": "17:00:00"
+      },
+      {
+        "day_of_week": 6,
+        "start_time": "10:00:00",
+        "end_time": "13:00:00"
+      },
+      {
+        "day_of_week": 6,
+        "start_time": "14:00:00",
+        "end_time": "16:00:00"
+      }
+    ],
+    "days_off": [
+      "2024-12-05",
+      "2024-12-25",
+      "2025-01-20",
+      "2025-02-10"
+    ],
+    "max_concurrent_clients": 1
+  },
+  {
+    "id": "spec_003",
+    "name": "Jessica Reyes",
+    "type": "Trainer",
+    "availability": [
+      {
+        "day_of_week": 1,
+        "start_time": "07:00:00",
+        "end_time": "12:00:00"
+      },
+      {
+        "day_of_week": 1,
+        "start_time": "15:00:00",
+        "end_time": "20:00:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "07:00:00",
+        "end_time": "12:00:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "15:00:00",
+        "end_time": "20:00:00"
+      },
+      {
+        "day_of_week": 5,
+        "start_time": "09:00:00",
+        "end_time": "14:00:00"
+      },
+      {
+        "day_of_week": 5,
+        "start_time": "16:00:00",
+        "end_time": "20:00:00"
+      },
+      {
+        "day_of_week": 6,
+        "start_time": "09:00:00",
+        "end_time": "13:00:00"
+      },
+      {
+        "day_of_week": 6,
+        "start_time": "14:00:00",
+        "end_time": "18:00:00"
+      }
+    ],
+    "days_off": [
+      "2024-12-24",
+      "2024-12-25",
+      "2025-01-01",
+      "2025-02-14",
+      "2025-03-01"
+    ],
+    "max_concurrent_clients": 1
+  },
+  {
+    "id": "spec_004",
+    "name": "Marcus Johnson",
+    "type": "Trainer",
+    "availability": [
+      {
+        "day_of_week": 0,
+        "start_time": "06:00:00",
+        "end_time": "10:00:00"
+      },
+      {
+        "day_of_week": 0,
+        "start_time": "17:00:00",
+        "end_time": "20:00:00"
+      },
+      {
+        "day_of_week": 1,
+        "start_time": "06:00:00",
+        "end_time": "10:00:00"
+      },
+      {
+        "day_of_week": 1,
+        "start_time": "16:00:00",
+        "end_time": "19:00:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "06:00:00",
+        "end_time": "10:00:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "17:00:00",
+        "end_time": "20:00:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "06:00:00",
+        "end_time": "10:00:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "16:00:00",
+        "end_time": "19:00:00"
+      },
+      {
+        "day_of_week": 4,
+        "start_time": "06:00:00",
+        "end_time": "12:00:00"
+      }
+    ],
+    "days_off": [
+      "2024-12-20",
+      "2024-12-27",
+      "2025-01-03"
+    ],
+    "max_concurrent_clients": 1
+  },
+  {
+    "id": "spec_005",
+    "name": "Emily Carter",
+    "type": "Trainer",
+    "availability": [
+      {
+        "day_of_week": 0,
+        "start_time": "10:00:00",
+        "end_time": "14:00:00"
+      },
+      {
+        "day_of_week": 0,
+        "start_time": "16:00:00",
+        "end_time": "20:00:00"
+      },
+      {
+        "day_of_week": 1,
+        "start_time": "10:00:00",
+        "end_time": "15:00:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "11:00:00",
+        "end_time": "14:00:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "16:00:00",
+        "end_time": "21:00:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "10:00:00",
+        "end_time": "15:00:00"
+      },
+      {
+        "day_of_week": 4,
+        "start_time": "10:00:00",
+        "end_time": "14:00:00"
+      },
+      {
+        "day_of_week": 4,
+        "start_time": "16:00:00",
+        "end_time": "20:00:00"
+      }
+    ],
+    "days_off": [
+      "2024-12-25",
+      "2025-01-10",
+      "2025-02-05",
+      "2025-03-05"
+    ],
+    "max_concurrent_clients": 1
+  },
+  {
+    "id": "spec_006",
+    "name": "Dr. Lisa Wong",
+    "type": "Dietitian",
+    "availability": [
+      {
+        "day_of_week": 0,
+        "start_time": "08:00:00",
+        "end_time": "12:00:00"
+      },
+      {
+        "day_of_week": 0,
+        "start_time": "13:00:00",
+        "end_time": "17:00:00"
+      },
+      {
+        "day_of_week": 1,
+        "start_time": "08:00:00",
+        "end_time": "12:00:00"
+      },
+      {
+        "day_of_week": 1,
+        "start_time": "14:00:00",
+        "end_time": "17:00:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "09:00:00",
+        "end_time": "12:00:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "13:00:00",
+        "end_time": "17:00:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "08:00:00",
+        "end_time": "12:00:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "13:00:00",
+        "end_time": "16:00:00"
+      }
+    ],
+    "days_off": [
+      "2024-12-24",
+      "2024-12-26",
+      "2025-01-01",
+      "2025-01-02",
+      "2025-02-14"
+    ],
+    "max_concurrent_clients": 1
+  },
+  {
+    "id": "spec_007",
+    "name": "Robert Davis",
+    "type": "Dietitian",
+    "availability": [
+      {
+        "day_of_week": 0,
+        "start_time": "09:00:00",
+        "end_time": "12:00:00"
+      },
+      {
+        "day_of_week": 0,
+        "start_time": "13:00:00",
+        "end_time": "17:00:00"
+      },
+      {
+        "day_of_week": 1,
+        "start_time": "08:00:00",
+        "end_time": "11:00:00"
+      },
+      {
+        "day_of_week": 1,
+        "start_time": "12:00:00",
+        "end_time": "16:00:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "09:00:00",
+        "end_time": "13:00:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "14:00:00",
+        "end_time": "17:00:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "08:00:00",
+        "end_time": "12:00:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "13:00:00",
+        "end_time": "16:00:00"
+      },
+      {
+        "day_of_week": 4,
+        "start_time": "09:00:00",
+        "end_time": "12:00:00"
+      },
+      {
+        "day_of_week": 4,
+        "start_time": "13:00:00",
+        "end_time": "16:00:00"
+      }
+    ],
+    "days_off": [
+      "2024-12-25",
+      "2025-01-01",
+      "2025-01-20"
+    ],
+    "max_concurrent_clients": 1
+  },
+  {
+    "id": "spec_008",
+    "name": "Maria Sanchez",
+    "type": "Dietitian",
+    "availability": [
+      {
+        "day_of_week": 1,
+        "start_time": "08:00:00",
+        "end_time": "12:00:00"
+      },
+      {
+        "day_of_week": 1,
+        "start_time": "13:00:00",
+        "end_time": "17:00:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "09:00:00",
+        "end_time": "13:00:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "14:00:00",
+        "end_time": "17:00:00"
+      },
+      {
+        "day_of_week": 4,
+        "start_time": "08:00:00",
+        "end_time": "11:00:00"
+      },
+      {
+        "day_of_week": 4,
+        "start_time": "12:00:00",
+        "end_time": "17:00:00"
+      }
+    ],
+    "days_off": [
+      "2024-12-19",
+      "2024-12-20",
+      "2024-12-26",
+      "2024-12-27",
+      "2025-02-01"
+    ],
+    "max_concurrent_clients": 1
+  },
+  {
+    "id": "spec_009",
+    "name": "Dr. Alan Reed",
+    "type": "Therapist",
+    "availability": [
+      {
+        "day_of_week": 0,
+        "start_time": "13:00:00",
+        "end_time": "16:00:00"
+      },
+      {
+        "day_of_week": 0,
+        "start_time": "17:00:00",
+        "end_time": "20:00:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "12:00:00",
+        "end_time": "15:00:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "16:00:00",
+        "end_time": "20:00:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "10:00:00",
+        "end_time": "13:00:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "14:00:00",
+        "end_time": "17:00:00"
+      },
+      {
+        "day_of_week": 4,
+        "start_time": "09:00:00",
+        "end_time": "13:00:00"
+      },
+      {
+        "day_of_week": 4,
+        "start_time": "14:00:00",
+        "end_time": "17:00:00"
+      }
+    ],
+    "days_off": [
+      "2024-12-25",
+      "2025-01-01",
+      "2025-02-01"
+    ],
+    "max_concurrent_clients": 1
+  },
+  {
+    "id": "spec_010",
+    "name": "Nina Patel",
+    "type": "Therapist",
+    "availability": [
+      {
+        "day_of_week": 0,
+        "start_time": "09:00:00",
+        "end_time": "12:00:00"
+      },
+      {
+        "day_of_week": 0,
+        "start_time": "15:00:00",
+        "end_time": "18:00:00"
+      },
+      {
+        "day_of_week": 1,
+        "start_time": "10:00:00",
+        "end_time": "13:00:00"
+      },
+      {
+        "day_of_week": 1,
+        "start_time": "16:00:00",
+        "end_time": "19:00:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "11:00:00",
+        "end_time": "14:00:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "16:00:00",
+        "end_time": "20:00:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "09:00:00",
+        "end_time": "12:00:00"
+      },
+      {
+        "day_of_week": 4,
+        "start_time": "13:00:00",
+        "end_time": "16:00:00"
+      },
+      {
+        "day_of_week": 4,
+        "start_time": "17:00:00",
+        "end_time": "20:00:00"
+      }
+    ],
+    "days_off": [
+      "2024-12-26",
+      "2025-01-15",
+      "2025-02-20",
+      "2025-03-10"
+    ],
+    "max_concurrent_clients": 1
+  },
+  {
+    "id": "spec_011",
+    "name": "Dr. James O'Connell",
+    "type": "Physician",
+    "availability": [
+      {
+        "day_of_week": 0,
+        "start_time": "08:00:00",
+        "end_time": "12:00:00"
+      },
+      {
+        "day_of_week": 0,
+        "start_time": "13:00:00",
+        "end_time": "17:00:00"
+      },
+      {
+        "day_of_week": 1,
+        "start_time": "08:00:00",
+        "end_time": "12:00:00"
+      },
+      {
+        "day_of_week": 1,
+        "start_time": "14:00:00",
+        "end_time": "18:00:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "09:00:00",
+        "end_time": "13:00:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "14:00:00",
+        "end_time": "18:00:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "08:00:00",
+        "end_time": "12:00:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "13:00:00",
+        "end_time": "17:00:00"
+      },
+      {
+        "day_of_week": 4,
+        "start_time": "08:00:00",
+        "end_time": "12:00:00"
+      },
+      {
+        "day_of_week": 4,
+        "start_time": "13:00:00",
+        "end_time": "16:00:00"
+      }
+    ],
+    "days_off": [
+      "2024-12-23",
+      "2024-12-24",
+      "2024-12-25",
+      "2024-12-26",
+      "2024-12-27"
+    ],
+    "max_concurrent_clients": 1
+  },
+  {
+    "id": "spec_012",
+    "name": "Dr. Chloe Kim",
+    "type": "Physician",
+    "availability": [
+      {
+        "day_of_week": 1,
+        "start_time": "08:00:00",
+        "end_time": "13:00:00"
+      },
+      {
+        "day_of_week": 1,
+        "start_time": "14:00:00",
+        "end_time": "18:00:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "08:00:00",
+        "end_time": "12:00:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "13:00:00",
+        "end_time": "17:00:00"
+      },
+      {
+        "day_of_week": 4,
+        "start_time": "08:00:00",
+        "end_time": "13:00:00"
+      },
+      {
+        "day_of_week": 4,
+        "start_time": "14:00:00",
+        "end_time": "17:00:00"
+      }
+    ],
+    "days_off": [
+      "2024-12-01",
+      "2025-01-01",
+      "2025-02-05",
+      "2025-02-06",
+      "2025-02-07"
+    ],
+    "max_concurrent_clients": 1
+  },
+  {
+    "id": "spec_013",
+    "name": "Dr. Ben Carter",
+    "type": "Physician",
+    "availability": [
+      {
+        "day_of_week": 0,
+        "start_time": "09:00:00",
+        "end_time": "13:00:00"
+      },
+      {
+        "day_of_week": 0,
+        "start_time": "14:00:00",
+        "end_time": "18:00:00"
+      },
+      {
+        "day_of_week": 1,
+        "start_time": "08:00:00",
+        "end_time": "12:00:00"
+      },
+      {
+        "day_of_week": 1,
+        "start_time": "13:00:00",
+        "end_time": "17:00:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "09:00:00",
+        "end_time": "13:00:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "14:00:00",
+        "end_time": "18:00:00"
+      },
+      {
+        "day_of_week": 5,
+        "start_time": "08:00:00",
+        "end_time": "12:00:00"
+      },
+      {
+        "day_of_week": 5,
+        "start_time": "13:00:00",
+        "end_time": "16:00:00"
+      }
+    ],
+    "days_off": [
+      "2024-12-25",
+      "2025-01-01",
+      "2025-02-14"
+    ],
+    "max_concurrent_clients": 1
+  },
+  {
+    "id": "spec_014",
+    "name": "Sophia Lee",
+    "type": "Allied_Health",
+    "availability": [
+      {
+        "day_of_week": 0,
+        "start_time": "07:00:00",
+        "end_time": "11:00:00"
+      },
+      {
+        "day_of_week": 0,
+        "start_time": "14:00:00",
+        "end_time": "17:00:00"
+      },
+      {
+        "day_of_week": 1,
+        "start_time": "07:00:00",
+        "end_time": "11:00:00"
+      },
+      {
+        "day_of_week": 1,
+        "start_time": "14:00:00",
+        "end_time": "18:00:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "08:00:00",
+        "end_time": "12:00:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "13:00:00",
+        "end_time": "17:00:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "07:00:00",
+        "end_time": "11:00:00"
+      },
+      {
+        "day_of_week": 3,
+        "start_time": "14:00:00",
+        "end_time": "17:00:00"
+      },
+      {
+        "day_of_week": 4,
+        "start_time": "07:00:00",
+        "end_time": "12:00:00"
+      },
+      {
+        "day_of_week": 4,
+        "start_time": "13:00:00",
+        "end_time": "15:00:00"
+      }
+    ],
+    "days_off": [
+      "2024-12-25",
+      "2025-01-01",
+      "2025-01-02",
+      "2025-03-01"
+    ],
+    "max_concurrent_clients": 1
+  },
+  {
+    "id": "spec_015",
+    "name": "Kyle Thompson",
+    "type": "Allied_Health",
+    "availability": [
+      {
+        "day_of_week": 0,
+        "start_time": "08:00:00",
+        "end_time": "13:00:00"
+      },
+      {
+        "day_of_week": 0,
+        "start_time": "14:00:00",
+        "end_time": "18:00:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "07:00:00",
+        "end_time": "13:00:00"
+      },
+      {
+        "day_of_week": 2,
+        "start_time": "14:00:00",
+        "end_time": "17:00:00"
+      },
+      {
+        "day_of_week": 4,
+        "start_time": "08:00:00",
+        "end_time": "12:00:00"
+      },
+      {
+        "day_of_week": 4,
+        "start_time": "13:00:00",
+        "end_time": "18:00:00"
+      },
+      {
+        "day_of_week": 5,
+        "start_time": "07:00:00",
+        "end_time": "12:00:00"
+      },
+      {
+        "day_of_week": 5,
+        "start_time": "13:00:00",
+        "end_time": "17:00:00"
+      }
+    ],
+    "days_off": [
+      "2024-12-24",
+      "2024-12-31",
+      "2025-01-01",
+      "2025-02-17",
+      "2025-03-15",
+      "2025-03-16"
+    ],
+    "max_concurrent_clients": 1
+  }
+]

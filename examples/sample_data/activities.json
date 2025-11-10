@@ -1,0 +1,97 @@
+[
+  {
+    "id": "act_sample_001",
+    "name": "Morning Exercise",
+    "type": "Exercise",
+    "priority": 1,
+    "duration_minutes": 45,
+    "frequency": {
+      "pattern": "daily",
+      "count": 1
+    },
+    "time_window": {
+      "start_time": "06:00",
+      "end_time": "08:00"
+    },
+    "requires_specialist": "spec_sample_001",
+    "requires_equipment": "equip_sample_001",
+    "can_be_remote": false,
+    "location": "gym"
+  },
+  {
+    "id": "act_sample_002",
+    "name": "Nutrition Consultation",
+    "type": "Consultation",
+    "priority": 2,
+    "duration_minutes": 60,
+    "frequency": {
+      "pattern": "weekly",
+      "count": 1
+    },
+    "time_window": {
+      "start_time": "10:00",
+      "end_time": "12:00"
+    },
+    "requires_specialist": "spec_sample_002",
+    "requires_equipment": null,
+    "can_be_remote": true,
+    "location": "home"
+  },
+  {
+    "id": "act_sample_003",
+    "name": "Meditation",
+    "type": "Mindfulness",
+    "priority": 2,
+    "duration_minutes": 30,
+    "frequency": {
+      "pattern": "daily",
+      "count": 1
+    },
+    "time_window": {
+      "start_time": "18:00",
+      "end_time": "20:00"
+    },
+    "requires_specialist": null,
+    "requires_equipment": null,
+    "can_be_remote": true,
+    "location": "home"
+  },
+  {
+    "id": "act_sample_004",
+    "name": "Yoga Class",
+    "type": "Exercise",
+    "priority": 3,
+    "duration_minutes": 60,
+    "frequency": {
+      "pattern": "weekly",
+      "count": 2
+    },
+    "time_window": {
+      "start_time": "17:00",
+      "end_time": "19:00"
+    },
+    "requires_specialist": "spec_sample_001",
+    "requires_equipment": null,
+    "can_be_remote": false,
+    "location": "gym"
+  },
+  {
+    "id": "act_sample_005",
+    "name": "Evening Walk",
+    "type": "Exercise",
+    "priority": 4,
+    "duration_minutes": 30,
+    "frequency": {
+      "pattern": "daily",
+      "count": 1
+    },
+    "time_window": {
+      "start_time": "16:00",
+      "end_time": "18:00"
+    },
+    "requires_specialist": null,
+    "requires_equipment": null,
+    "can_be_remote": true,
+    "location": "outdoor"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "travel_001",
+    "start_date": "2025-12-18",
+    "end_date": "2025-12-24",
+    "location": "Tamarindo, Costa Rica - Holiday Vacation",
+    "remote_activities_only": false
+  },
+  {
+    "id": "travel_002",
+    "start_date": "2026-01-09",
+    "end_date": "2026-01-11",
+    "location": "Park City, UT - Ski Weekend",
+    "remote_activities_only": true
+  },
+  {
+    "id": "travel_003",
+    "start_date": "2026-01-20",
+    "end_date": "2026-01-23",
+    "location": "Chicago, IL - Industry Conference (Business)",
+    "remote_activities_only": true
+  },
+  {
+    "id": "travel_004",
+    "start_date": "2026-02-06",
+    "end_date": "2026-02-08",
+    "location": "Nashville, TN - Long Weekend Getaway",
+    "remote_activities_only": false
+  },
+  {
+    "id": "travel_005",
+    "start_date": "2026-02-20",
+    "end_date": "2026-02-22",
+    "location": "Washington D.C. - Remote Work / Museum Visits",
+    "remote_activities_only": true
+  },
+  {
+    "id": "travel_006",
+    "start_date": "2026-03-06",
+    "end_date": "2026-03-08",
+    "location": "San Juan, Puerto Rico - Short Tropical Trip",
+    "remote_activities_only": false
+  }
+]

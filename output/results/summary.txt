@@ -1,0 +1,17 @@
+================================================================================
+SCHEDULE SUMMARY
+================================================================================
+
+Period: December 09, 2025 to March 08, 2026
+Duration: 90 days
+
+Total scheduled slots: 1612
+
+Activity Distribution:
+  Medication     :  744 ( 46.2%)
+  Fitness        :  408 ( 25.3%)
+  Food           :  372 ( 23.1%)
+  Therapy        :   70 (  4.3%)
+  Consultation   :   18 (  1.1%)
+
+Average activities per day: 17.9

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Activity Scheduler</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>🏥 Health Activity Scheduler</h1>
+                <p class="subtitle">AI-Powered 90-Day Health Program</p>
+            </div>
+        </header>
+
+        <!-- Loading State -->
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Loading schedule data...</p>
+        </div>
+
+        <!-- Main Content -->
+        <main id="main-content" class="main-content" style="display: none;">
+            <!-- Dashboard Stats -->
+            <section class="dashboard">
+                <div class="stat-cards">
+                    <div class="stat-card success-rate">
+                        <div class="stat-icon">📊</div>
+                        <div class="stat-content">
+                            <div class="stat-label">Success Rate</div>
+                            <div id="success-rate" class="stat-value">--</div>
+                        </div>
+                    </div>
+                    <div class="stat-card scheduled">
+                        <div class="stat-icon">✅</div>
+                        <div class="stat-content">
+                            <div class="stat-label">Activities Scheduled</div>
+                            <div id="scheduled-count" class="stat-value">--</div>
+                        </div>
+                    </div>
+                    <div class="stat-card duration">
+                        <div class="stat-icon">📅</div>
+                        <div class="stat-content">
+                            <div class="stat-label">Program Duration</div>
+                            <div id="duration" class="stat-value">90 days</div>
+                        </div>
+                    </div>
+                    <div class="stat-card cost">
+                        <div class="stat-icon">💰</div>
+                        <div class="stat-content">
+                            <div class="stat-label">LLM Generation Cost</div>
+                            <div id="cost" class="stat-value">--</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Priority Breakdown -->
+            <section class="priority-section">
+                <h2>📊 Success by Priority</h2>
+                <div id="priority-breakdown" class="priority-breakdown">
+                    <!-- Populated by JS -->
+                </div>
+            </section>
+
+            <!-- Activity Type Distribution -->
+            <section class="type-section">
+                <h2>🎯 Activity Distribution</h2>
+                <div id="type-breakdown" class="type-breakdown">
+                    <!-- Populated by JS -->
+                </div>
+            </section>
+
+            <!-- Calendar View -->
+            <section class="calendar-section">
+                <div class="calendar-header">
+                    <h2>📅 Calendar View</h2>
+                    <div class="calendar-controls">
+                        <button id="prev-month" class="btn-nav">‹ Prev</button>
+                        <h3 id="current-month">December 2025</h3>
+                        <button id="next-month" class="btn-nav">Next ›</button>
+                    </div>
+                </div>
+                <div id="calendar" class="calendar-grid">
+                    <!-- Populated by JS -->
+                </div>
+            </section>
+
+            <!-- Daily Schedule -->
+            <section class="daily-section">
+                <h2 id="selected-date-header">📋 Daily Schedule</h2>
+                <div id="daily-schedule" class="daily-schedule">
+                    <p class="placeholder">Select a date from the calendar to view the daily schedule</p>
+                </div>
+            </section>
+
+            <!-- Failed Activities -->
+            <section class="failures-section">
+                <h2>⚠️ Failed Activities</h2>
+                <div id="failures" class="failures-list">
+                    <!-- Populated by JS -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

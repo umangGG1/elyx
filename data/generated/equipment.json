@@ -1,0 +1,176 @@
+[
+  {
+    "id": "equip_001",
+    "name": "Commercial Treadmill (HD Model)",
+    "location": "Cardio Zone 1A",
+    "maintenance_windows": [
+      {
+        "start_date": "2026-01-15",
+        "end_date": "2026-01-15",
+        "start_time": "10:00:00",
+        "end_time": "14:00:00"
+      },
+      {
+        "start_date": "2026-02-27",
+        "end_date": "2026-02-27",
+        "start_time": "08:00:00",
+        "end_time": "11:00:00"
+      }
+    ],
+    "max_concurrent_users": 1,
+    "requires_specialist": false
+  },
+  {
+    "id": "equip_002",
+    "name": "Rear-Drive Elliptical Trainer",
+    "location": "Cardio Zone 2B",
+    "maintenance_windows": [
+      {
+        "start_date": "2026-01-20",
+        "end_date": "2026-01-20",
+        "start_time": "13:00:00",
+        "end_time": "15:30:00"
+      }
+    ],
+    "max_concurrent_users": 1,
+    "requires_specialist": false
+  },
+  {
+    "id": "equip_003",
+    "name": "Olympic Free Weight Rack Set",
+    "location": "Strength Training Area",
+    "maintenance_windows": [
+      {
+        "start_date": "2025-12-19",
+        "end_date": "2025-12-19",
+        "start_time": "11:00:00",
+        "end_time": "13:00:00"
+      }
+    ],
+    "max_concurrent_users": 4,
+    "requires_specialist": false
+  },
+  {
+    "id": "equip_004",
+    "name": "Magnetic Resistance Rowing Machine",
+    "location": "Cardio Zone 3A",
+    "maintenance_windows": [
+      {
+        "start_date": "2026-01-10",
+        "end_date": "2026-01-10",
+        "start_time": "09:00:00",
+        "end_time": "12:00:00"
+      },
+      {
+        "start_date": "2026-03-05",
+        "end_date": "2026-03-05",
+        "start_time": "15:00:00",
+        "end_time": "17:00:00"
+      }
+    ],
+    "max_concurrent_users": 1,
+    "requires_specialist": false
+  },
+  {
+    "id": "equip_005",
+    "name": "Finnish Dry Sauna (8 Person)",
+    "location": "Wellness Suite",
+    "maintenance_windows": [
+      {
+        "start_date": "2026-01-25",
+        "end_date": "2026-01-25",
+        "start_time": "07:00:00",
+        "end_time": "11:00:00"
+      }
+    ],
+    "max_concurrent_users": 4,
+    "requires_specialist": true
+  },
+  {
+    "id": "equip_006",
+    "name": "Commercial Cold Plunge Ice Bath",
+    "location": "Hydrotherapy Room",
+    "maintenance_windows": [
+      {
+        "start_date": "2025-12-18",
+        "end_date": "2025-12-18",
+        "start_time": "14:00:00",
+        "end_time": "17:00:00"
+      },
+      {
+        "start_date": "2026-02-14",
+        "end_date": "2026-02-14",
+        "start_time": "08:00:00",
+        "end_time": "10:00:00"
+      }
+    ],
+    "max_concurrent_users": 1,
+    "requires_specialist": true
+  },
+  {
+    "id": "equip_007",
+    "name": "Digital Clinical Blood Pressure Monitor",
+    "location": "Nurse's Station",
+    "maintenance_windows": [
+      {
+        "start_date": "2026-01-08",
+        "end_date": "2026-01-08",
+        "start_time": "10:00:00",
+        "end_time": "12:00:00"
+      }
+    ],
+    "max_concurrent_users": 1,
+    "requires_specialist": true
+  },
+  {
+    "id": "equip_008",
+    "name": "Multi-Frequency Body Composition Analyzer (BIA)",
+    "location": "Assessment Room 1",
+    "maintenance_windows": [
+      {
+        "start_date": "2026-02-01",
+        "end_date": "2026-02-01",
+        "start_time": "09:00:00",
+        "end_time": "13:00:00"
+      }
+    ],
+    "max_concurrent_users": 1,
+    "requires_specialist": true
+  },
+  {
+    "id": "equip_009",
+    "name": "High-Density Yoga Mats (Set of 10)",
+    "location": "Studio A Storage",
+    "maintenance_windows": [
+      {
+        "start_date": "2025-12-20",
+        "end_date": "2025-12-20",
+        "start_time": "16:00:00",
+        "end_time": "18:00:00"
+      },
+      {
+        "start_date": "2026-02-05",
+        "end_date": "2026-02-05",
+        "start_time": "17:00:00",
+        "end_time": "19:00:00"
+      }
+    ],
+    "max_concurrent_users": 4,
+    "requires_specialist": false
+  },
+  {
+    "id": "equip_010",
+    "name": "Heavy Duty Resistance Bands (Set)",
+    "location": "Functional Training Area",
+    "maintenance_windows": [
+      {
+        "start_date": "2026-01-30",
+        "end_date": "2026-01-30",
+        "start_time": "14:00:00",
+        "end_time": "16:00:00"
+      }
+    ],
+    "max_concurrent_users": 2,
+    "requires_specialist": false
+  }
+]

@@ -1,0 +1,746 @@
+{
+  "success_metrics": {
+    "overall": {
+      "total_required": 1734,
+      "total_scheduled": 1612,
+      "success_rate": 92.96424452133795
+    },
+    "by_priority": {
+      "priority_1": {
+        "required": 507,
+        "scheduled": 507,
+        "success_rate": 100.0
+      },
+      "priority_2": {
+        "required": 639,
+        "scheduled": 639,
+        "success_rate": 100.0
+      },
+      "priority_3": {
+        "required": 360,
+        "scheduled": 360,
+        "success_rate": 100.0
+      },
+      "priority_4": {
+        "required": 186,
+        "scheduled": 105,
+        "success_rate": 56.451612903225815
+      },
+      "priority_5": {
+        "required": 42,
+        "scheduled": 1,
+        "success_rate": 2.380952380952381
+      }
+    }
+  },
+  "utilization": {
+    "specialists": {
+      "spec_001": {
+        "name": "Sarah Mitchell",
+        "bookings": 0,
+        "utilization_estimate": 0.0
+      },
+      "spec_002": {
+        "name": "David Chen",
+        "bookings": 72,
+        "utilization_estimate": 15.0
+      },
+      "spec_003": {
+        "name": "Jessica Reyes",
+        "bookings": 60,
+        "utilization_estimate": 12.5
+      },
+      "spec_004": {
+        "name": "Marcus Johnson",
+        "bookings": 51,
+        "utilization_estimate": 10.625
+      },
+      "spec_005": {
+        "name": "Emily Carter",
+        "bookings": 48,
+        "utilization_estimate": 10.0
+      },
+      "spec_006": {
+        "name": "Dr. Lisa Wong",
+        "bookings": 24,
+        "utilization_estimate": 5.0
+      },
+      "spec_007": {
+        "name": "Robert Davis",
+        "bookings": 27,
+        "utilization_estimate": 5.625
+      },
+      "spec_008": {
+        "name": "Maria Sanchez",
+        "bookings": 12,
+        "utilization_estimate": 2.5
+      },
+      "spec_009": {
+        "name": "Dr. Alan Reed",
+        "bookings": 0,
+        "utilization_estimate": 0.0
+      },
+      "spec_010": {
+        "name": "Nina Patel",
+        "bookings": 0,
+        "utilization_estimate": 0.0
+      },
+      "spec_011": {
+        "name": "Dr. James O'Connell",
+        "bookings": 0,
+        "utilization_estimate": 0.0
+      },
+      "spec_012": {
+        "name": "Dr. Chloe Kim",
+        "bookings": 0,
+        "utilization_estimate": 0.0
+      },
+      "spec_013": {
+        "name": "Dr. Ben Carter",
+        "bookings": 0,
+        "utilization_estimate": 0.0
+      },
+      "spec_014": {
+        "name": "Sophia Lee",
+        "bookings": 0,
+        "utilization_estimate": 0.0
+      },
+      "spec_015": {
+        "name": "Kyle Thompson",
+        "bookings": 0,
+        "utilization_estimate": 0.0
+      }
+    },
+    "equipment": {
+      "equip_001": {
+        "name": "Commercial Treadmill (HD Model)",
+        "uses": 108,
+        "utilization_estimate": 40.0
+      },
+      "equip_002": {
+        "name": "Rear-Drive Elliptical Trainer",
+        "uses": 60,
+        "utilization_estimate": 22.22222222222222
+      },
+      "equip_003": {
+        "name": "Olympic Free Weight Rack Set",
+        "uses": 36,
+        "utilization_estimate": 13.333333333333334
+      },
+      "equip_004": {
+        "name": "Magnetic Resistance Rowing Machine",
+        "uses": 60,
+        "utilization_estimate": 22.22222222222222
+      },
+      "equip_005": {
+        "name": "Finnish Dry Sauna (8 Person)",
+        "uses": 72,
+        "utilization_estimate": 26.666666666666668
+      },
+      "equip_006": {
+        "name": "Commercial Cold Plunge Ice Bath",
+        "uses": 147,
+        "utilization_estimate": 54.44444444444444
+      },
+      "equip_007": {
+        "name": "Digital Clinical Blood Pressure Monitor",
+        "uses": 108,
+        "utilization_estimate": 40.0
+      },
+      "equip_008": {
+        "name": "Multi-Frequency Body Composition Analyzer (BIA)",
+        "uses": 168,
+        "utilization_estimate": 62.22222222222222
+      },
+      "equip_009": {
+        "name": "High-Density Yoga Mats (Set of 10)",
+        "uses": 279,
+        "utilization_estimate": 100
+      },
+      "equip_010": {
+        "name": "Heavy Duty Resistance Bands (Set)",
+        "uses": 24,
+        "utilization_estimate": 8.88888888888889
+      }
+    }
+  },
+  "distribution": {
+    "by_type": {
+      "Medication": 744,
+      "Consultation": 18,
+      "Food": 372,
+      "Fitness": 408,
+      "Therapy": 70
+    },
+    "by_time_of_day": {
+      "morning (6-12)": 881,
+      "afternoon (12-17)": 548,
+      "evening (17-21)": 183,
+      "other": 0
+    },
+    "by_day_of_week": {
+      "Monday": 312,
+      "Tuesday": 327,
+      "Wednesday": 202,
+      "Thursday": 195,
+      "Saturday": 186,
+      "Friday": 195,
+      "Sunday": 195
+    }
+  },
+  "failure_analysis": {
+    "total_failed_activities": 100,
+    "constraint_violations": {
+      "travel": 10416,
+      "overlap": 435237,
+      "specialist": 144
+    },
+    "failures_by_priority": {
+      "1": [
+        {
+          "activity_id": "act_001",
+          "activity_name": "Morning Blood Pressure Medication",
+          "attempts": 918
+        },
+        {
+          "activity_id": "act_002",
+          "activity_name": "Evening Insulin Injection",
+          "attempts": 1350
+        },
+        {
+          "activity_id": "act_003",
+          "activity_name": "Nightly Cholesterol Medication",
+          "attempts": 1782
+        },
+        {
+          "activity_id": "act_005",
+          "activity_name": "Morning Blood Pressure Medication",
+          "attempts": 2214
+        },
+        {
+          "activity_id": "act_006",
+          "activity_name": "Evening Diabetes Medication",
+          "attempts": 2646
+        },
+        {
+          "activity_id": "act_007",
+          "activity_name": "Bedtime Sleep Aid",
+          "attempts": 3078
+        },
+        {
+          "activity_id": "act_008",
+          "activity_name": "Morning Blood Pressure Medication",
+          "attempts": 3510
+        },
+        {
+          "activity_id": "act_009",
+          "activity_name": "Evening Insulin Injection",
+          "attempts": 3942
+        },
+        {
+          "activity_id": "act_010",
+          "activity_name": "Morning Cardioprotective Medication",
+          "attempts": 4374
+        },
+        {
+          "activity_id": "act_011",
+          "activity_name": "Evening Metabolic Support Medication",
+          "attempts": 4806
+        },
+        {
+          "activity_id": "act_097",
+          "activity_name": "Afternoon Blood Glucose Check",
+          "attempts": 5238
+        },
+        {
+          "activity_id": "act_098",
+          "activity_name": "Evening Vitamin Supplement",
+          "attempts": 5670
+        },
+        {
+          "activity_id": "act_099",
+          "activity_name": "Morning Thyroid Medication",
+          "attempts": 6102
+        },
+        {
+          "activity_id": "act_100",
+          "activity_name": "Bedtime Medication Routine",
+          "attempts": 6534
+        },
+        {
+          "activity_id": "act_004",
+          "activity_name": "Monthly Primary Care Physician Check-in",
+          "attempts": 23
+        }
+      ],
+      "2": [
+        {
+          "activity_id": "act_012",
+          "activity_name": "Iron Supplement Intake",
+          "attempts": 4164
+        },
+        {
+          "activity_id": "act_013",
+          "activity_name": "Daily Vitamin D Supplement",
+          "attempts": 4452
+        },
+        {
+          "activity_id": "act_014",
+          "activity_name": "Bi-Weekly Prescription Refill Check",
+          "attempts": 4740
+        },
+        {
+          "activity_id": "act_015",
+          "activity_name": "Targeted Grocery Shopping",
+          "attempts": 5412
+        },
+        {
+          "activity_id": "act_017",
+          "activity_name": "Asthma Inhaler Refill/Check",
+          "attempts": 5604
+        },
+        {
+          "activity_id": "act_018",
+          "activity_name": "Hydration and Water Tracking",
+          "attempts": 5892
+        },
+        {
+          "activity_id": "act_019",
+          "activity_name": "Daily Hydration Goal Tracking (2.5L)",
+          "attempts": 6180
+        },
+        {
+          "activity_id": "act_020",
+          "activity_name": "Log All Meals and Macros",
+          "attempts": 6468
+        },
+        {
+          "activity_id": "act_021",
+          "activity_name": "Meal Prep: Healthy Lunches",
+          "attempts": 6972
+        },
+        {
+          "activity_id": "act_022",
+          "activity_name": "Cardio: Zone 2",
+          "attempts": 7464
+        },
+        {
+          "activity_id": "act_023",
+          "activity_name": "Log Detailed Food Intake",
+          "attempts": 7908
+        },
+        {
+          "activity_id": "act_024",
+          "activity_name": "Achieve Daily Step Goal (7000 steps)",
+          "attempts": 8328
+        },
+        {
+          "activity_id": "act_025",
+          "activity_name": "Core Stability Routine (Mat Work)",
+          "attempts": 8640
+        },
+        {
+          "activity_id": "act_026",
+          "activity_name": "Daily 10,000 Steps Goal Tracking",
+          "attempts": 8640
+        },
+        {
+          "activity_id": "act_027",
+          "activity_name": "Prescribed Anti-inflammatory Dose",
+          "attempts": 8640
+        },
+        {
+          "activity_id": "act_028",
+          "activity_name": "Weekly Anti-Inflammatory Dose",
+          "attempts": 8640
+        },
+        {
+          "activity_id": "act_029",
+          "activity_name": "Cognitive Behavioral Therapy Session",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_030",
+          "activity_name": "Track Weekly Supplement Review",
+          "attempts": 1152
+        },
+        {
+          "activity_id": "act_031",
+          "activity_name": "Self-Administer Immunosuppressant Injection",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_032",
+          "activity_name": "Aerobic Cardio Session",
+          "attempts": 8640
+        },
+        {
+          "activity_id": "act_033",
+          "activity_name": "Strength Training - Lower Body Focus",
+          "attempts": 8640
+        },
+        {
+          "activity_id": "act_034",
+          "activity_name": "Prepare Healthy Lunches (Batch Prep)",
+          "attempts": 8640
+        },
+        {
+          "activity_id": "act_035",
+          "activity_name": "Strength Training Session A",
+          "attempts": 8640
+        },
+        {
+          "activity_id": "act_036",
+          "activity_name": "Weekend Batch Meal Preparation",
+          "attempts": 8640
+        },
+        {
+          "activity_id": "act_037",
+          "activity_name": "Strength Training - Upper Body Focus",
+          "attempts": 8640
+        },
+        {
+          "activity_id": "act_038",
+          "activity_name": "Cardio Interval Training (HIIT)",
+          "attempts": 8640
+        },
+        {
+          "activity_id": "act_039",
+          "activity_name": "Low-Impact Cardio Session (45 min)",
+          "attempts": 8640
+        },
+        {
+          "activity_id": "act_040",
+          "activity_name": "Swimming Laps",
+          "attempts": 432
+        },
+        {
+          "activity_id": "act_041",
+          "activity_name": "Weekly B12 Injection Administration",
+          "attempts": 1152
+        },
+        {
+          "activity_id": "act_016",
+          "activity_name": "Monthly Dietitian Review",
+          "attempts": 246
+        }
+      ],
+      "3": [
+        {
+          "activity_id": "act_042",
+          "activity_name": "Asthma Inhaler Check",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_043",
+          "activity_name": "Post-Workout Protein Shake Prep",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_044",
+          "activity_name": "Hydration Tracking",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_045",
+          "activity_name": "Log Food Diary",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_046",
+          "activity_name": "Weekly Bone Density Medication",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_047",
+          "activity_name": "Maintain Sleep Hygiene Routine",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_048",
+          "activity_name": "Active Recovery Walk",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_049",
+          "activity_name": "Core Stability Workout",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_050",
+          "activity_name": "Active Recovery Walk",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_051",
+          "activity_name": "Strength Training Session B (Home)",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_052",
+          "activity_name": "Weekend Smoothie Preparation",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_053",
+          "activity_name": "Low Impact Swimming Session",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_054",
+          "activity_name": "Active Recovery Walk",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_055",
+          "activity_name": "Grocery Shopping & Healthy Pantry Stocking",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_056",
+          "activity_name": "Track Calorie/Macro Intake",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_057",
+          "activity_name": "Mindful Portion Control Check",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_058",
+          "activity_name": "Weekly B12 Injection",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_059",
+          "activity_name": "Evening Relaxation Yoga/Stretching",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_060",
+          "activity_name": "High-Fiber Breakfast Prep",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_061",
+          "activity_name": "Flexibility/Stretching Routine",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_062",
+          "activity_name": "Mindfulness Meditation",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_063",
+          "activity_name": "Fiber Intake Review",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_064",
+          "activity_name": "Weekend Hike or Cycle",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_065",
+          "activity_name": "Guided Meditation Practice",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_066",
+          "activity_name": "Try New Fiber-Rich Recipe",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_067",
+          "activity_name": "Flexibility and Foam Rolling Session",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_068",
+          "activity_name": "Review Nutrition Data with App",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_069",
+          "activity_name": "Long Outdoor Hike/Walk (75 min)",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_070",
+          "activity_name": "Guided Mindfulness Meditation",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_071",
+          "activity_name": "Meal Planning & Grocery List Prep",
+          "attempts": 4320
+        }
+      ],
+      "4": [
+        {
+          "activity_id": "act_076",
+          "activity_name": "Take Daily Multivitamin",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_077",
+          "activity_name": "Vitamin D Intake",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_078",
+          "activity_name": "Practice Reading Nutrition Labels",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_081",
+          "activity_name": "Posture and Mobility Drills",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_082",
+          "activity_name": "Weekend Hiking/Outdoor Activity",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_083",
+          "activity_name": "Try New Vegetable/Recipe",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_084",
+          "activity_name": "Guided Meditation Session",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_085",
+          "activity_name": "Stress Management Cognitive Drill",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_086",
+          "activity_name": "Try New Healthy Recipe",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_087",
+          "activity_name": "Snack Portioning",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_088",
+          "activity_name": "Grocery Shopping & Planning",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_089",
+          "activity_name": "Swimming/Water Aerobics",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_090",
+          "activity_name": "Sleep Hygiene Review",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_091",
+          "activity_name": "Balance and Proprioception Drills",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_072",
+          "activity_name": "Physician Check-in (Monthly)",
+          "attempts": 126
+        },
+        {
+          "activity_id": "act_073",
+          "activity_name": "Monthly Stress Management Workshop",
+          "attempts": 150
+        },
+        {
+          "activity_id": "act_074",
+          "activity_name": "Primary Care Physician Check-in",
+          "attempts": 180
+        },
+        {
+          "activity_id": "act_075",
+          "activity_name": "Monthly Deep Tissue Massage Therapy",
+          "attempts": 204
+        },
+        {
+          "activity_id": "act_079",
+          "activity_name": "Registered Dietitian Follow-up",
+          "attempts": 234
+        },
+        {
+          "activity_id": "act_080",
+          "activity_name": "Dietitian Follow-up Consultation",
+          "attempts": 252
+        }
+      ],
+      "5": [
+        {
+          "activity_id": "act_092",
+          "activity_name": "Review Calorie Goals",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_093",
+          "activity_name": "Core Stabilization Routine",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_094",
+          "activity_name": "Track Weekly Steps Goal",
+          "attempts": 4320
+        },
+        {
+          "activity_id": "act_095",
+          "activity_name": "Stress Management Workshop",
+          "attempts": 268
+        },
+        {
+          "activity_id": "act_096",
+          "activity_name": "Nutritionist Review",
+          "attempts": 270
+        }
+      ]
+    },
+    "most_common_issue": "overlap"
+  },
+  "schedule_stats": {
+    "total_slots": 1612,
+    "unique_activities": 100,
+    "date_range": [
+      "2025-12-09",
+      "2026-03-08"
+    ],
+    "busiest_day": [
+      "2026-01-20",
+      28
+    ],
+    "specialist_usage": {
+      "spec_007": 27,
+      "spec_004": 51,
+      "spec_003": 60,
+      "spec_002": 72,
+      "spec_005": 48,
+      "spec_006": 24,
+      "spec_008": 12
+    },
+    "equipment_usage": {
+      "equip_009": 279,
+      "equip_007": 108,
+      "equip_008": 168,
+      "equip_006": 147,
+      "equip_001": 108,
+      "equip_003": 36,
+      "equip_005": 72,
+      "equip_010": 24,
+      "equip_004": 60,
+      "equip_002": 60
+    },
+    "failed_count": 100
+  }
+}

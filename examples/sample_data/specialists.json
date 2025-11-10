@@ -1,0 +1,65 @@
+[
+  {
+    "id": "spec_sample_001",
+    "name": "Sarah Johnson",
+    "type": "trainer",
+    "availability_blocks": [
+      {
+        "day": 0,
+        "start_time": "06:00",
+        "end_time": "20:00"
+      },
+      {
+        "day": 1,
+        "start_time": "06:00",
+        "end_time": "20:00"
+      },
+      {
+        "day": 2,
+        "start_time": "06:00",
+        "end_time": "20:00"
+      },
+      {
+        "day": 3,
+        "start_time": "06:00",
+        "end_time": "20:00"
+      },
+      {
+        "day": 4,
+        "start_time": "06:00",
+        "end_time": "20:00"
+      }
+    ],
+    "days_off": [5, 6],
+    "holidays": []
+  },
+  {
+    "id": "spec_sample_002",
+    "name": "Dr. Michael Chen",
+    "type": "nutritionist",
+    "availability_blocks": [
+      {
+        "day": 1,
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "day": 2,
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "day": 3,
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "day": 4,
+        "start_time": "09:00",
+        "end_time": "17:00"
+      }
+    ],
+    "days_off": [0, 5, 6],
+    "holidays": []
+  }
+]

@@ -1,0 +1,128 @@
+================================================================================
+DAILY SCHEDULE - Tuesday, December 09, 2025
+================================================================================
+
+Total activities: 26
+
+06:00 - 06:05  |  Morning Blood Pressure Medication
+                      Type: Medication | Priority: 1 | 5 min
+                      Location: Location.HOME
+                      Equipment: equip_009
+
+06:30 - 06:35  |  Morning Blood Pressure Medication
+                      Type: Medication | Priority: 1 | 5 min
+                      Location: Location.HOME
+                      Equipment: equip_009
+
+07:00 - 07:05  |  Morning Blood Pressure Medication
+                      Type: Medication | Priority: 1 | 5 min
+                      Location: Location.HOME
+                      Equipment: equip_009
+
+07:30 - 07:40  |  Evening Insulin Injection
+                      Type: Medication | Priority: 1 | 10 min
+                      Location: Location.HOME
+                      Equipment: equip_007
+
+08:00 - 08:10  |  Evening Insulin Injection
+                      Type: Medication | Priority: 1 | 10 min
+                      Location: Location.HOME
+                      Equipment: equip_007
+
+08:30 - 08:40  |  Evening Insulin Injection
+                      Type: Medication | Priority: 1 | 10 min
+                      Location: Location.HOME
+                      Equipment: equip_007
+
+09:00 - 09:05  |  Bedtime Sleep Aid
+                      Type: Medication | Priority: 1 | 5 min
+                      Location: Location.HOME
+                      Equipment: equip_009
+
+09:30 - 09:35  |  Morning Blood Pressure Medication
+                      Type: Medication | Priority: 1 | 5 min
+                      Location: Location.HOME
+                      Equipment: equip_009
+
+10:00 - 10:05  |  Morning Blood Pressure Medication
+                      Type: Medication | Priority: 1 | 5 min
+                      Location: Location.HOME
+                      Equipment: equip_009
+
+10:30 - 10:35  |  Evening Insulin Injection
+                      Type: Medication | Priority: 1 | 5 min
+                      Location: Location.HOME
+                      Equipment: equip_008
+
+11:00 - 11:05  |  Evening Insulin Injection
+                      Type: Medication | Priority: 1 | 5 min
+                      Location: Location.HOME
+                      Equipment: equip_008
+
+11:30 - 11:35  |  Morning Cardioprotective Medication
+                      Type: Medication | Priority: 1 | 5 min
+                      Location: Location.HOME
+                      Equipment: equip_009
+
+12:00 - 12:05  |  Morning Cardioprotective Medication
+                      Type: Medication | Priority: 1 | 5 min
+                      Location: Location.HOME
+                      Equipment: equip_009
+
+12:30 - 12:35  |  Evening Metabolic Support Medication
+                      Type: Medication | Priority: 1 | 5 min
+                      Location: Location.HOME
+
+13:00 - 13:05  |  Evening Metabolic Support Medication
+                      Type: Medication | Priority: 1 | 5 min
+                      Location: Location.HOME
+
+13:30 - 13:35  |  Afternoon Blood Glucose Check
+                      Type: Medication | Priority: 1 | 5 min
+                      Location: Location.HOME
+                      Equipment: equip_009
+
+14:00 - 14:05  |  Afternoon Blood Glucose Check
+                      Type: Medication | Priority: 1 | 5 min
+                      Location: Location.HOME
+                      Equipment: equip_009
+
+14:30 - 14:35  |  Evening Vitamin Supplement
+                      Type: Medication | Priority: 1 | 5 min
+                      Location: Location.HOME
+
+15:00 - 15:05  |  Evening Vitamin Supplement
+                      Type: Medication | Priority: 1 | 5 min
+                      Location: Location.HOME
+
+15:30 - 15:35  |  Morning Thyroid Medication
+                      Type: Medication | Priority: 1 | 5 min
+                      Location: Location.HOME
+
+16:00 - 16:05  |  Morning Thyroid Medication
+                      Type: Medication | Priority: 1 | 5 min
+                      Location: Location.HOME
+
+16:30 - 16:40  |  Bedtime Medication Routine
+                      Type: Medication | Priority: 1 | 10 min
+                      Location: Location.HOME
+
+17:00 - 18:00  |  Meal Prep: Healthy Lunches
+                      Type: Food | Priority: 2 | 60 min
+                      Location: Location.HOME
+                      Equipment: equip_001
+
+18:00 - 19:00  |  Meal Prep: Healthy Lunches
+                      Type: Food | Priority: 2 | 60 min
+                      Location: Location.HOME
+                      Equipment: equip_001
+
+19:00 - 19:45  |  Cardio: Zone 2
+                      Type: Fitness | Priority: 2 | 45 min
+                      Location: Location.ANY
+                      Equipment: equip_003, equip_005
+
+20:00 - 21:00  |  Achieve Daily Step Goal (7000 steps)
+                      Type: Fitness | Priority: 2 | 60 min
+                      Location: Location.ANY
+                      Equipment: equip_006

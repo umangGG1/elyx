@@ -1,0 +1,15 @@
+[
+  {
+    "id": "equip_sample_001",
+    "name": "Gym Equipment Set",
+    "type": "gym",
+    "location": "gym",
+    "maintenance_windows": [
+      {
+        "date": "2025-12-14",
+        "start_time": "12:00",
+        "end_time": "14:00"
+      }
+    ]
+  }
+]

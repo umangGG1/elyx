@@ -1,0 +1,41 @@
+{
+  "generation_date": "2025-11-08",
+  "start_date": "2025-12-08",
+  "end_date": "2026-03-08",
+  "total_slots": 2144,
+  "total_required": 4137,
+  "success_rate": 51.82,
+  "unique_activities_scheduled": 77,
+  "total_activities": 114,
+  "priority_breakdown": {
+    "priority_1": {
+      "scheduled": 995,
+      "required": 1116,
+      "success_rate": 89.16
+    },
+    "priority_2": {
+      "scheduled": 345,
+      "required": 1146,
+      "success_rate": 30.1
+    },
+    "priority_3": {
+      "scheduled": 737,
+      "required": 1539,
+      "success_rate": 47.89
+    },
+    "priority_4": {
+      "scheduled": 67,
+      "required": 336,
+      "success_rate": 19.94
+    },
+    "priority_5": {
+      "scheduled": 0,
+      "required": 0,
+      "success_rate": 0
+    }
+  },
+  "busiest_day": {
+    "date": "2025-12-24",
+    "activity_count": 32
+  }
+}

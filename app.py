@@ -12,9 +12,10 @@ from utils import load_json
 
 app = Flask(__name__)
 
-# Configure paths
-OUTPUT_DIR = Path("output/results")
-DATA_DIR = Path("data/generated")
+# Configure paths - use absolute paths for Vercel compatibility
+BASE_DIR = Path(__file__).parent.absolute()
+OUTPUT_DIR = BASE_DIR / "output" / "results"
+DATA_DIR = BASE_DIR / "data" / "generated"
 
 
 @app.route("/")
